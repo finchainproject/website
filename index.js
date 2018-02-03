@@ -21,8 +21,6 @@ app.get('/en', (req, res) => {
   res.render('index', { currentLang: 'en', langText: langText })
 })
 
-
-
 app.use(express.static('public'))
 app.use('/images', express.static('images'))
 
@@ -30,4 +28,6 @@ app.use(function(req, res, next){
   res.redirect('/cn')
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+let serverPORT = process.env.PORT || 3000;
+
+app.listen(serverPORT, () => console.log('Example app listening on port ' + serverPORT + '!'))
