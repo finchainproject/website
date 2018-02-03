@@ -232,19 +232,19 @@ module.exports = {
         'founders' : [
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Ryan Cheung'
             },
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Edward Chow'
             },
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Edward Chow'
             },
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Ryan Cheung'
             }
         ]
     }
