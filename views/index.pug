@@ -45,7 +45,7 @@ html
               i(class='fa fa-telegram fa-lg')
             div(class='topBanner', style='margin-bottom: 3rem; z-index: 1001')
               div(class='text-center')
-                button(class='btn btn-outline-light')= langText.topBanner.subscribeBox.btnWhitePaper
+                button(class='btn btn-outline-light', onclick='window.open("FINCHAIN_White-Paper.pdf")')= langText.topBanner.subscribeBox.btnWhitePaper
 
     div(class='cover-container contentWrapper theProblem')
       div(class='container')
@@ -103,23 +103,24 @@ html
                   div(class='col-12 col-md-5 text-center')
                     img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
             if sectionItem.descriptionBlock 
-              div(class='w-100 contentBlock')
-                div(class='row', data-aos='fade-up', data-aos-delay='200')
+              div(class='w-100 contentBlock', data-aos='fade-up', data-aos-delay='200')
+                div(class='row')
                   div(class='col-12 col-md-6')
                     h4!= sectionItem.descriptionBlock.caption
                 div(class='row')
                   div(class='col-12 col-md')
                     each contentItem in sectionItem.descriptionBlock.contentItem
-                      div(style='margin-bottom: 4rem')
-                        strong(style='font-size: 1.3em')= contentItem.header
-                        div= contentItem.content
-                  div(class='col-12 col-md')
-                    each contentItem in sectionItem.descriptionBlock.contentItem
-                        div(style='margin-bottom: 1.5rem', class='row align-items-center')
-                          div(class='col-6 col-md-6 col-lg-4')
-                            div(style!='width:120px; height: 120px; background-size: 100%; background-repeat:no-repeat; background-position: center; background-image:url(./images/' + contentItem.image + '); border-radius:120px; background-color: #FFFFFF;')  
-                          div(class='col')
-                            h4= contentItem.imageALT
+                      div(class='row')
+                        div(class='col-12 col-md-6')
+                          div(style='margin-bottom: 1rem')
+                            strong(style='font-size: 1.3em')= contentItem.header
+                            div= contentItem.content
+                        div(class='col-12 col-md-6')
+                          div(style='margin-bottom: 1.5rem', class='row align-items-center')
+                            div(class='col-6 col-md-6 col-lg-4')
+                              div(style!='width:120px; height: 120px; background-size: 100%; background-repeat:no-repeat; background-position: center; background-image:url(./images/' + contentItem.image + '); border-radius:120px; background-color: #FFFFFF;')  
+                            div(class='col')
+                              h4= contentItem.imageALT
                             
 
                 
