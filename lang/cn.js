@@ -2,7 +2,7 @@ module.exports = {
     'title' : 'FINCHAIN', 
     'topBanner' : {
         'caption' : '数字货币',
-        'subCaption' : '的去中心化金融生态中心',
+        'subCaption' : '去中心化金融生态中心',
         'description' : [
             '用户生成内容、专业用户生成内容社区',
             '数字货币市场上的彭博'
