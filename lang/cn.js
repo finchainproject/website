@@ -29,19 +29,19 @@ module.exports = {
             {
                 'title' : '建立最大的数字货币内容平台',
                 'descriptionBlock' : {
-                    'caption' : '獨有的区块链技術和奖励机制: <div>Proof of Intelligence</div>',
+                    'caption' : '独有的区块链技术和奖励机制: <div>Proof of Intelligence</div>',
                     'contentItem' : [
                         {
                             'header' : '创作优质内容',
                             'image' : 'author.png',
                             'imageALT' : '发布奖励',
-                            'content' : '优质的内容提供者和社群贡献者是应该获奖赏和激励的，我们愿意共同分享成功。最强大脑是一种区块链奖励算法，鼓励人们创作和策划優質内容。优质的内容提供者可获得FINCHAIN和FINPOWER奖励。'
+                            'content' : '优质的内容提供者和社群贡献者是应该获奖赏和激励的，我们愿意共同分享成功。 Proof of intelligence 是一种区块链奖励算法，鼓励人们创作和策划优质内容。'
                         },
                         {
                             'header' : '内容策展',
                             'image' : 'voter.png',
                             'imageALT' : '策展奖励',
-                            'content' : '在内容平台中引入价值预测市场，让市场来左右内容的定价，而不是中心化的机构。用户获得的收益，將是他们在理性思考后判断是好内容这一行为所带来的价值沉淀。内容的受众，变成了优质内容的挖掘者。 Proof of intelligence区块链奖励算法將可激励用户搜寻和发现的主观能动性、群策群力去中心化地确认好贴文。'
+                            'content' : '在内容平台中引入价值预测市场，让市场来左右内容的定价，而不是中心化的机构。用户获得的收益，将是他们理性思考判断是否好内容这一行为所带来的价值沉淀。 Proof of intelligence将可激励用户搜寻和发现的主观能动性、群策群力去中心化地确认好贴文。'
                         }
                     ]
                 },
