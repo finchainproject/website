@@ -30,6 +30,20 @@ body {
 
 .theProblem {
     background-color: #FFBF00;
+    background-image: url(../images/partner_bg_resize.png); 
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner-item {
+    min-height: 30vh;
+}
+
+@media(max-width:540px) {
+    .carousel-inner-item {
+        min-height: 50vh;
+    }
 }
 
 h1 {
