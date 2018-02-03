@@ -9,11 +9,11 @@ html
     script(src='./bootstrap/js/bootstrap.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js')
     script(src='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js')
-    script(src='./particles.js/particles.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js')
     script(src='./js/site.js')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
   body
-    div(class='h-100 particle-network-animation', id='particle-network-animation')
+    canvas(class='h-100 particle-network-animation', id='particle-network-animation')
     div(class='cover-container h-100 w-100 site-header', style='background-image:url(./images/mainBackground.png)')
       div(class='container')
         div(class='row')
@@ -64,14 +64,14 @@ html
                     div
                       h1= problemItem.header
                       hr(class='hrLight', style='margin-bottom: 1.5rem')
-                      div(style='line-height:2em')!= problemItem.content
+                      div(style='line-height:2em;', class='carousel-inner-item-content')!= problemItem.content
               else
                 div(class='carousel-item  text-center')
                   div(class='carousel-inner-item') 
                     div
                       h1= problemItem.header
                       hr(class='hrLight', style='margin-bottom: 1.5rem')
-                      div(style='line-height:2em')!= problemItem.content
+                      div(style='line-height:2em;', class='carousel-inner-item-content')!= problemItem.content
 
     div(class='cover-container contentWrapper solution', style='background-image:url(./images/Key_feature_bg.png); background-position: top center; background-size: cover; background-repeat: no-repeat ')
       div(class='container')
@@ -112,6 +112,9 @@ html
                         strong(style='font-size: 1.3em')= contentItem.header
                       div= contentItem.content
                 div(class='col-12 col-md-6')
+                  each contentItem in sectionItem.descriptionBlock.contentItem
+                    div
+                      img(src!='./images/' + contentItem.image, style='width:200px')
                 
                 
     
@@ -124,12 +127,12 @@ html
             div(class='row justify-content-center')
               each item, index in langText.coreValue.items
                 if index % 2 == 0
-                  div(class='col-10 col-md coreValueItem', style='min-height: 25rem; margin-bottom: 1rem;', data-aos="flip-left", data-aos-delay!=(index*200))
+                  div(class='col-10 col-md-4 col-xl coreValueItem', style='min-height: 25rem; margin-bottom: 1rem;', data-aos="flip-left", data-aos-delay!=(index*200))
                     img(src!='./images/coreValue' + index + '.svg', style='height: 150px')
                     div(class='coreValueItemHeader')= item.caption
                     div(class='coreValueItemDescription')= item.description
                 else
-                  div(class='col-10 col-md coreValueItem', style='min-height: 25rem; margin-bottom: 1rem;', data-aos="flip-right", data-aos-delay!=(index*200))
+                  div(class='col-10 col-md-4 col-xl coreValueItem', style='min-height: 25rem; margin-bottom: 1rem;', data-aos="flip-right", data-aos-delay!=(index*200))
                     img(src!='./images/coreValue' + index + '.svg', style='height: 150px')
                     div(class='coreValueItemHeader')= item.caption
                     div(class='coreValueItemDescription')= item.description
@@ -172,7 +175,7 @@ html
             h1(class='text-center')= langText.distributionOfTokens.title
             hr(class='hrYellow')
             div(class='text-center') 
-              canvas(id='myChart', style='width:40vw; margin:0 auto')
+              canvas(id='myChart', style='width:500px; margin:0 auto')
               div(class='row', style='margin-top: 1rem;')
                 each item in langText.distributionOfTokens.legendItems
                   div(class='col-3')

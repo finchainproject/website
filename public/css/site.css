@@ -40,9 +40,15 @@ body {
     min-height: 30vh;
 }
 
+@media(max-width: 1200px) {
+    .carousel-inner-item-content {
+        font-size: 1rem
+    }
+}
+
 @media(max-width:540px) {
     .carousel-inner-item {
-        min-height: 50vh;
+        min-height: 90vh;
     }
 }
 
