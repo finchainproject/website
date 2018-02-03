@@ -22,10 +22,25 @@ module.exports = {
         'section' : [
             {
                 'title' : '建立最大的数字货币内容平台',
+                'descriptionBlock' : {
+                    'caption' : '獨有的区块链技術和奖励机制: <div>Proof of Intelligence</div>',
+                    'contentItem' : [
+                        {
+                            'header' : '創作優質內容',
+                            'image' : '',
+                            'content' : '优质的内容提供者和社群贡献者是应该获奖赏和激励的，我们愿意共同分享成功。最强大脑是一种区块链奖励算法，鼓励人们创作和策划優質内容。优质的内容提供者可获得FINCHAIN和FINPOWER奖励。'
+                        },
+                        {
+                            'header' : '内容策展',
+                            'image' : '',
+                            'content' : '在内容平台中引入价值预测市场，让市场来左右内容的定价，而不是中心化的机构。用户获得的收益，將是他们在理性思考后判断是好内容这一行为所带来的价值沉淀。内容的受众，变成了优质内容的挖掘者。 Proof of intelligence区块链奖励算法將可激励用户搜寻和发现的主观能动性、群策群力去中心化地确认好贴文。'
+                        }
+                    ]
+                },
                 'items' : [
                     {
                         'title' : '用户生成内容平台并有全球领先的区块链奖励设定',
-                        'image' : 'p01.png',
+                        'image' : 'kp01-01.png',
                         'description' : '优质的内容提供者和社群贡献者是应该获奖赏和激励的，我们愿意与用户共同分享成功，将采用激励机制以促进更多的用户去生成优质的内容和分享',
                         'subItems' : [
                             '避免烦扰的行政工作，用户可专注于创作和生成内容，作品可自动获得奖励',
@@ -34,7 +49,7 @@ module.exports = {
                     },
                     {
                         'title' : '以去中心化地共同决定出内容价值',
-                        'image' : 'p02.png',
+                        'image' : 'kp02-01.png',
                         'description' : '在内容平台中引入价值预测市场，让市场来左右内容的定价，而不是中心化的机构。用户可以用投票方式来对内容定价。',
                         'subItems' : [
                             '用户可以去中心化地(点好评)共同决定出内容价值',
@@ -44,7 +59,7 @@ module.exports = {
                     },
                     {
                         'title' : '感兴趣的精选内容一目了然',
-                        'image' : 'p03.png',
+                        'image' : 'kp03-01.png',
                         'description' : '定期获取自定义的资讯和精选的市场新闻、见解，并可以设定感兴趣的类型',
                         'subItems' : [
                             '相关区块链的最新贴文、信息',
@@ -59,7 +74,7 @@ module.exports = {
                 'items' : [
                     {
                         'title' : '详尽精确的数据库和知识库',
-                        'image' : 'p05.png',
+                        'image' : 'kp04-01.png',
                         'description' : 'FINCHAIN 数据分析平台会建构数字货币和区块链的数据库，目标成为全球领先的数字货币和区块链市场的金融信息服务供货商和数字货币的信息枢纽',
                         'subItems' : [
                             '可以访问所有你需要知道的ICO和数字货币项目资讯',
@@ -69,7 +84,7 @@ module.exports = {
                     },
                     {
                         'title' : '大数据分析平台 - 降低风险，增加回报',
-                        'image' : 'p06.png',
+                        'image' : 'kp05-01.png',
                         'description' : '建立世界上最大、最多种类的数据流和大数据分析平台，无论你想从那一方面对加密货币和区块链资产作出分析、找出模式，皆可从我们的平台找到相关的原始数据加以应用',
                         'subItems' : [
                             '中英文情感分析、文本意见挖掘、多源数据信息推送',
@@ -110,7 +125,7 @@ module.exports = {
             {
                 'dateString' : 'Q2 - Q4 2018',
                 'caption' : '成为专业的投资者内容金融信息平台',
-                'image': 'financial-content.jpg',
+                'image': 'roadmap-01.png',
                 'descriptionItem' : [
                     '奖励系统',
                     '订阅系统',
@@ -126,7 +141,7 @@ module.exports = {
             {
                 'dateString' : 'Q1 - Q2 2019',
                 'caption' : '开发高端和专业的投资工具如彭博、建构自己的区块链',
-                'image': 'bloomberg.PNG',
+                'image': 'roadmap-02.png',
                 'descriptionItem' : [
                     'ICO 分析系统',
                     '共建知识库',
@@ -141,7 +156,7 @@ module.exports = {
             {
                 'dateString' : 'Q3 - Q4 2019',
                 'caption' : '开发应用程式商店',
-                'image': 'apps_market.jpg',
+                'image': 'roadmap-03.png',
                 'descriptionItem' : [
                     '商业应用商店',
                     '桌上终端机',
@@ -152,7 +167,7 @@ module.exports = {
             {
                 'dateString' : 'Q4 2019 - 未來',
                 'caption' : '更多的应用和数据信息流',
-                'image': 'datafeeds.png',
+                'image': 'roadmap-04.png',
                 'descriptionItem' : [
                     '200+ 数据信息流',
                     '金融产品商店'

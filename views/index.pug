@@ -7,11 +7,13 @@ html
     link(rel='stylesheet', href='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css')
     script(src='./jquery/jquery.min.js')
     script(src='./bootstrap/js/bootstrap.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js')
     script(src='https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js')
+    script(src='./particles.js/particles.js')
     script(src='./js/site.js')
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
   body
-    div(class='h-100 particle-network-animation')
+    div(class='h-100 particle-network-animation', id='particle-network-animation')
     div(class='cover-container h-100 w-100 site-header', style='background-image:url(./images/mainBackground.png)')
       div(class='container')
         div(class='row')
@@ -26,14 +28,14 @@ html
                 when 'en'
                   button(class='btn btn-lang', onclick="window.location='/cn'") 中
                   button(class='btn btn-lang active', onclick="window.location='/en'") EN
-        div(class='row align-items-center h-100')
-          div(class='col-12 col-md-8', style='margin-bottom: 1rem;')
+        div(class='row justify-content-md-center h-100 text-center')
+          div(class='col-12 col-md-7 align-self-center', style='margin-bottom: 1rem;')
             div(class='topBanner caption')= langText.topBanner.caption
             div(class='topBanner subCaption')= langText.topBanner.subCaption
             div(class='topBanner description')
               each desc in langText.topBanner.description
                 div= desc
-            div(class='topBanner footer')
+            div(class='topBanner footer', style='margin-bottom: 1rem;')
               i(class='fa fa-facebook-official fa-lg')
               i(class='fa fa-linkedin-square fa-lg')
               i(class='fa fa-github fa-lg')
@@ -41,23 +43,30 @@ html
               i(class='fa fa-twitter fa-lg')
               i(class='fa fa-medium fa-lg')
               i(class='fa fa-telegram fa-lg')
-          div(class='col-12 col-md-4')
-            div(class='topBanner rightBox', style='margin-bottom: 3rem; z-index: 1001')
+            div(class='topBanner', style='margin-bottom: 3rem; z-index: 1001')
               div(class='text-center')
-                div(class='text-left caption')!= langText.topBanner.subscribeBox.catopion
-                button(class='btn btn-white btn-block', style='background-color: #FFFFFF')= langText.topBanner.subscribeBox.btnWhitePaper
-    
-    div(class='cover-container contentWrapper theProblem', style='background-image:url(./images/the_problem_bg.png)')
+                button(class='btn btn-outline-light')= langText.topBanner.subscribeBox.btnWhitePaper
+
+    div(class='cover-container contentWrapper theProblem')
       div(class='container')
-        div(class='row')
-          div(class='col text-center')
-            h1= langText.theProblem.title
-            hr(class='hrLight')
-            div(class='row align-items-center')
-              div(class='col-12 col-md-6', data-aos='fade-up')
-                img(src='./images/question_mark.png', style='width: 150px')
-              div(class='col-12 col-md-6', style='line-height: 2rem')
-                p= langText.theProblem.description
+        div(id='carouselExampleIndicators', class='carousel slide', data-ride='carousel')
+          ol(class='carousel-indicators')
+            li(data-target='#carouselExampleIndicators', data-slide-to='0', class='active')
+            li(data-target='#carouselExampleIndicators', data-slide-to='1')
+            li(data-target='#carouselExampleIndicators', data-slide-to='2')
+          div(class='carousel-inner')
+            div(class='carousel-item active')
+              div(class='h-25') 
+                div
+                  strong(style='font-size: 1.3em') Hello World
+            div(class='carousel-item ')
+              div(class='h-25') 
+                div
+                  strong(style='font-size: 1.3em') Hello Apple
+            div(class='carousel-item')
+              div(class='h-25') 
+                div
+                  strong(style='font-size: 1.3em') Hello Google
 
     div(class='cover-container contentWrapper solution', style='background-image:url(./images/Key_feature_bg.png); background-position: top center; background-size: cover; background-repeat: no-repeat ')
       div(class='container')
@@ -69,25 +78,37 @@ html
           div
             h4(class='text-center')
               span(class='badge badge-warning', style='color: #FFFFFF;')= sectionItem.title
-          each item, index in sectionItem.items
-            if index % 2 == 0
-              div(class='row align-items-center solutionItem', data-aos='fade-right')
-                div(class='col-12 col-md-5 text-center')
-                  img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
-                div(class='col-12 col-md-7')
-                  h5= item.title
-                  p= item.description
-                  each subItem in item.subItems
-                    li= subItem
-            else
-              div(class='row align-items-center  solutionItem', data-aos='fade-left')
-                div(class='col-12 col-md-7 order-last order-md-first')
-                  h5= item.title
-                  p= item.description
-                  each subItem in item.subItems
-                    li= subItem
-                div(class='col-12 col-md-5 text-center')
-                  img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
+            each item, index in sectionItem.items
+              if index % 2 == 0
+                div(class='row align-items-center solutionItem', data-aos='fade-up', data-aos-delay='200')
+                  div(class='col-12 col-md-5 text-center')
+                    img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
+                  div(class='col-12 col-md-7')
+                    h5= item.title
+                    p= item.description
+                    each subItem in item.subItems
+                      li= subItem
+              else
+                div(class='row align-items-center  solutionItem', data-aos='fade-up', data-aos-delay='200')
+                  div(class='col-12 col-md-7 order-last order-md-first')
+                    h5= item.title
+                    p= item.description
+                    each subItem in item.subItems
+                      li= subItem
+                  div(class='col-12 col-md-5 text-center')
+                    img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
+            if sectionItem.descriptionBlock 
+              div(class='row w-100 contentBlock', data-aos='fade-up', data-aos-delay='200')
+                div(class='col-12 col-md-6')
+                  h4!= sectionItem.descriptionBlock.caption
+                  each contentItem in sectionItem.descriptionBlock.contentItem
+                    div(style='margin-bottom: 1.5em')
+                      div
+                        strong(style='font-size: 1.3em')= contentItem.header
+                      div= contentItem.content
+                div(class='col-12 col-md-6')
+                
+                
     
     div(class='cover-container contentWrapper coreValue', style='background-image:url(./images/core_bg.png)')
       div(class='container')
@@ -146,7 +167,7 @@ html
             h1(class='text-center')= langText.distributionOfTokens.title
             hr(class='hrYellow')
             div(class='text-center') 
-              img(src='./images/distribution_graph.svg', style='width:50%')
+              canvas(id='myChart', style='width:40vw; margin:0 auto')
               div(class='row', style='margin-top: 1rem;')
                 each item in langText.distributionOfTokens.legendItems
                   div(class='col-3')
@@ -168,8 +189,8 @@ html
             h1(class='h1Yellow text-center')= langText.founder.title
             hr(class='hrLight')
         div(class='row ')
-          each item in langText.founder.founders
-            div(class='col-12 col-md-6')
+          each item, index in langText.founder.founders
+            div(class='col-12 col-md-6', data-aos='fade-up', data-aos-anchor-placement='top-bottom', data-aos-delay!=(index*200))
               div(class='container founderContainer')
                 div(class='row align-items-center')
                   div(class='col-12 col-md-5')
