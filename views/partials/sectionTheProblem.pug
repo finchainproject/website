@@ -1,0 +1,25 @@
+div(class='cover-container contentWrapper theProblem')
+    div(class='container')
+        div(id='carouselExampleIndicators', class='carousel slide', data-ride='carousel')
+          ol(class='carousel-indicators')
+            each problemItem, index in langText.theProblem
+              if index == 0
+                li(data-target='#carouselExampleIndicators', data-slide-to!=index, class='active')
+              else
+                li(data-target='#carouselExampleIndicators', data-slide-to!=index)
+          div(class='carousel-inner')
+            each problemItem, index in langText.theProblem
+              if index == 0 
+                div(class='carousel-item active text-center')
+                  div(class='carousel-inner-item') 
+                    div
+                      h1= problemItem.header
+                      hr(class='hrLight', style='margin-bottom: 1.5rem')
+                      div(style='line-height:2em;', class='carousel-inner-item-content')!= problemItem.content
+              else
+                div(class='carousel-item  text-center')
+                  div(class='carousel-inner-item') 
+                    div
+                      h1= problemItem.header
+                      hr(class='hrLight', style='margin-bottom: 1.5rem')
+                      div(style='line-height:2em;', class='carousel-inner-item-content')!= problemItem.content

@@ -1,0 +1,48 @@
+div(class='cover-container contentWrapper solution', style='background-image:url(./images/Key_feature_bg.png); background-position: top center; background-size: cover; background-repeat: no-repeat ')
+    div(class='container')
+        div(class='row')
+          div(class='col')
+            h1(class='text-center')= langText.solution.title
+            hr(class='hrYellow')
+        each sectionItem in langText.solution.section
+          div
+            h4(class='text-center')
+              span(class='badge badge-warning', style='color: #FFFFFF;')= sectionItem.title
+            each item, index in sectionItem.items
+              if index % 2 == 0
+                div(class='row align-items-center solutionItem', data-aos='fade-up', data-aos-delay='200')
+                  div(class='col-12 col-md-5 text-center')
+                    img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
+                  div(class='col-12 col-md-7', style='margin-top:1rem;')
+                    h5= item.title
+                    p= item.description
+                    each subItem in item.subItems
+                      li= subItem
+              else
+                div(class='row align-items-center  solutionItem', data-aos='fade-up', data-aos-delay='200')
+                  div(class='col-12 col-md-7 order-last order-md-first', style='margin-top:1rem;')
+                    h5= item.title
+                    p= item.description
+                    each subItem in item.subItems
+                      li= subItem
+                  div(class='col-12 col-md-5 text-center')
+                    img(src!='./images/' + item.image, style='width: 250px; margin: 0 auto')
+            if sectionItem.descriptionBlock 
+              div(class='w-100 contentBlock', style='margin-bottom: 4rem;', data-aos='fade-up', data-aos-delay='200')
+                div(class='row')
+                  div(class='col-12 col-md-6 contentBlock-header')
+                    h4!= sectionItem.descriptionBlock.caption
+                div(class='row', style='margin-top: 1rem;')
+                  div(class='col-12 col-md')
+                    each contentItem in sectionItem.descriptionBlock.contentItem
+                      div(class='row')
+                        div(class='col-12 col-md-6 col-lg-8')
+                          div(style='margin-bottom: 1rem')
+                            strong(style='font-size: 1.3em', class='contentBlock-subHeader')= contentItem.header
+                            div(class='contentBlock-subContent')= contentItem.content
+                        div(class='col-12 col-md-6 col-lg-4' )
+                          div(style='margin-bottom: 1.5rem', class='row align-items-center')
+                            div(class='col-6 col-md-6 col-lg-6')
+                              div(style!='width:120px; height: 120px; background-size: 100%; background-repeat:no-repeat; background-position: center; background-image:url(./images/' + contentItem.image + '); border-radius:120px; background-color: #FFFFFF;')  
+                            div(class='col')
+                              h4= contentItem.imageALT

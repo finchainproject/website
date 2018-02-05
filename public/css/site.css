@@ -196,6 +196,14 @@ hr.hrYellow {
     border-radius: 5px;
 }
 
+.founder {
+    background: #505050; 
+    background-image:url(../images/founder_bg.svg); 
+    background-size: 80%; 
+    background-repeat: no-repeat; 
+    background-position: top center;
+}
+
 .founderContainer {
     background-color: #FFFFFF;
     padding: 1rem;
@@ -339,3 +347,4 @@ $duration: 25s;
 .contentBlock div {
     color: #FFFFFF;
 }
+
