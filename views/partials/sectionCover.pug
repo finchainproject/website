@@ -3,7 +3,7 @@ div(class='cover-container h-100 w-100 site-header', style='background-image:url
     div(class='container')
         div(class='row')
           div(class='col')
-            img(src='./images/Logo.png', class="site-logo")
+            p!= '&nbsp;'
           div(class='col-xs-3 text-right', style='z-index: 1001')
             div 
               case currentLang
@@ -15,7 +15,7 @@ div(class='cover-container h-100 w-100 site-header', style='background-image:url
                   button(class='btn btn-lang active', onclick="window.location='/en'") EN
         div(class='row justify-content-md-center h-100 text-center')
           div(class='col-12 col-md-7 align-self-center', style='margin-bottom: 1rem;')
-            div(class='topBanner caption')= langText.topBanner.caption
+            div(class='topBanner caption')!= langText.topBanner.caption
             div(class='topBanner subCaption')= langText.topBanner.subCaption
             div(class='topBanner description')
               each desc in langText.topBanner.description

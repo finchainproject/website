@@ -7,6 +7,21 @@ body {
     font-family: 'Noto Sans SC', sans-serif;
 }
 
+.topNav {
+    background: rgba(0,0,0,0.8);
+    transition: 0.5s all ease;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    padding: 0.5rem 0;
+    z-index: 1001;
+}
+
+.topNav.active {
+    opacity: 1;
+}
+
 .site-header {
     color: #FFFFFF;
     padding-top: 2rem;

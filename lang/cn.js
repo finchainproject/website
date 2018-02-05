@@ -1,11 +1,10 @@
 module.exports = {
     'title' : 'FINCHAIN', 
     'topBanner' : {
-        'caption' : '数字货币',
-        'subCaption' : '去中心化金融生态中心',
+        'caption' : '<img src="./images/Logo.png" class="w-100" />',
+        'subCaption' : '数字货币市场上的彭博',
         'description' : [
-            '用户生成内容、专业用户生成内容社区',
-            '数字货币市场上的彭博'
+            '去中心化金融生态',
         ],
         'subscribeBox' : {
             'catopion' : '预售结束<br />共筹集200万美元',
