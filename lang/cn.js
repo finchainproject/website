@@ -4,7 +4,7 @@ module.exports = {
         'caption' : '<img src="./images/Logo.png" class="w-100" />',
         'subCaption' : '数字货币市场上的彭博',
         'description' : [
-            '去中心化金融生态',
+            '去中心化的金融生态',
         ],
         'subscribeBox' : {
             'catopion' : '预售结束<br />共筹集200万美元',
