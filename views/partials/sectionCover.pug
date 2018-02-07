@@ -1,33 +1,25 @@
-canvas(class='h-75 w-100 particle-network-animation', id='particle-network-animation')
-div(class='cover-container h-75 w-100 site-header', style='background-image:url(./images/mainBackground.png)')
-    div(class='container')
-        div(class='row')
-          div(class='col')
-            p!= '&nbsp;'
-          div(class='col-xs-3 text-right', style='z-index: 1001')
-            div 
-              case currentLang
-                when 'cn'
-                  button(class='btn btn-lang active', onclick="window.location='/cn'") 中
-                  button(class='btn btn-lang', onclick="window.location='/en'") EN
-                when 'en'
-                  button(class='btn btn-lang', onclick="window.location='/cn'") 中
-                  button(class='btn btn-lang active', onclick="window.location='/en'") EN
-        div(class='row justify-content-md-center h-100 text-center')
-          div(class='col-12 col-md-7 align-self-center', style='margin-bottom: 1rem;')
-            div(class='topBanner caption')!= langText.topBanner.caption
-            div(class='topBanner subCaption')= langText.topBanner.subCaption
-            div(class='topBanner description')
-              each desc in langText.topBanner.description
-                div= desc
-            div(class='topBanner footer', style='margin-bottom: 1rem;')
-              i(class='fa fa-facebook-official fa-lg')
-              i(class='fa fa-linkedin-square fa-lg')
-              i(class='fa fa-github fa-lg')
-              i(class='fa fa-instagram fa-lg')
-              i(class='fa fa-twitter fa-lg')
-              i(class='fa fa-medium fa-lg')
-              i(class='fa fa-telegram fa-lg')
-            div(class='topBanner', style='margin-bottom: 3rem; z-index: 1001')
-              div(class='text-center')
-                button(class='btn btn-outline-light', onclick='window.open("FINCHAIN_White-Paper.pdf")')= langText.topBanner.subscribeBox.btnWhitePaper
+div(class='cover-container h-75 w-100 site-header')
+  div(class='container')
+    div(class='row'): div(class='col text-right')
+      div
+        button(class='btn btn-lang', class=currentLang == 'cn' ? 'active' : '', onclick="window.location='/cn'") 中
+        button(class='btn btn-lang', class=currentLang == 'en' ? 'active' : '' onclick="window.location='/en'") EN
+    div(class='row justify-content-md-center h-100 text-center')
+      div(class='col align-self-center')
+        //- img(class='site-logo', src='./images/Logo.png')
+        div(class='caption')!= langText.topBanner.caption
+        div(class='subCaption')= langText.topBanner.subCaption
+        div(class='description')
+          each desc in langText.topBanner.description
+            div= desc
+        div(class='footer')
+          i(class='fa fa-facebook-official fa-lg')
+          i(class='fa fa-linkedin-square fa-lg')
+          i(class='fa fa-github fa-lg')
+          i(class='fa fa-instagram fa-lg')
+          i(class='fa fa-twitter fa-lg')
+          i(class='fa fa-medium fa-lg')
+          i(class='fa fa-telegram fa-lg')
+        div(class='btnDownload-wrapper')
+          div(class='text-center')
+            button(class='btn btn-download', onclick='window.open("FINCHAIN_White-Paper.pdf")')= langText.topBanner.subscribeBox.btnWhitePaper
