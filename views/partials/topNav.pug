@@ -1,0 +1,14 @@
+div(class='cover-container topNav', id='topNav')
+    div(class='container')
+        div(class='row')
+          div(class='col')
+            img(src='./images/Logo.png', style='width: 200px')
+          div(class='col-xs-3 text-right', style='z-index: 1001')
+            div 
+              case currentLang
+                when 'cn'
+                  button(class='btn btn-lang active', onclick="window.location='/cn'") 中
+                  button(class='btn btn-lang', onclick="window.location='/en'") EN
+                when 'en'
+                  button(class='btn btn-lang', onclick="window.location='/cn'") 中
+                  button(class='btn btn-lang active', onclick="window.location='/en'") EN

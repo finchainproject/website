@@ -1,0 +1,15 @@
+div(class='cover-container contentWrapper founder')
+    div(class='container')
+        div(class='row')
+          div(class='col')
+            h1(class='h1Yellow text-center')= langText.founder.title
+            hr(class='hrLight')
+        div(class='row ')
+          each item, index in langText.founder.founders
+            div(class='col-12 col-md-6', data-aos='fade-up', data-aos-anchor-placement='top-bottom', data-aos-delay!=(index*200))
+              div(class='container founderContainer')
+                div(class='row align-items-center')
+                  div(class='col-12 col-md-5')
+                    div(class='founderImage', style='margin: 0 auto;')
+                  div(class='col-12 col-md-7 founderName  text-center')
+                    div= item.name
