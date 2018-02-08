@@ -1,30 +1,22 @@
-div(class='cover-container contentWrapper roadMap', style='background: #646464')
-    div(class='container')
+- var roadMap = langText.roadMap
+div(class='cover-container w-100 roadMap roadMapItemBackground')
+  div(class='roadMapContent')
+    div(class='container'): div(class='row')
+      div(class='col')
+        h1(class='white')= roadMap.title
+        hr(class='white')
         div(class='row')
-          div(class='col')
-            h1(class='h1Yellow text-center')= langText.roadmap.title
-            hr(class='hrLight')
-        div(class='row')
-          div(class='col')
-            each item, index in langText.roadmap.items
-              div(class='row align-items-center roadmapItem no-gutters', style='padding: 2rem', data-aos='fade-up', data-aos-delay='200')
-                if index % 2 == 0
-                  div(class='col-12 col-md-5 text-center') 
-                    div(style!='background-color: #FFBF00; width: 250px; height:250px; border-radius: 250px; margin:0 auto;background-position:center; background-size:cover; background-image:url(./images/' + item.image + ')')
-                  div(class='col-3 col-md-2 text-center')
-                    img(src='./images/road_map_line_01.png', style='height: 220px')
-                  div(class='col-9 col-md-5')
-                    div(class='roadMapHeader')= item.dateString
-                    div(class='roadMapHeader')= item.caption
-                    each desc in item.descriptionItem
-                      div(class='roadMapItem')= desc
-                else
-                  div(class='col-9 col-md-5 order-2 order-md-1 text-right')
-                    di(class='roadMapHeader')= item.dateString
-                    div(class='roadMapHeader')= item.caption
-                    each desc in item.descriptionItem
-                      div(class='roadMapItem')= desc 
-                  div(class='col-3 col-md-2 order-3 order-md-2 text-center')
-                    img(src='./images/road_map_line_02.png', style='height: 220px')
-                  div(class='col-12 col-md-5 order-1 order-md-last text-center')
-                    div(style!='background-color: #C0C0C0; width: 250px; height:250px; border-radius: 250px;  margin:0 auto;background-position:center; background-size:cover; background-image:url(./images/' + item.image + ')')
+          each item, index in roadMap.items
+            div(class='col roadMapItem')
+              div(class='row')
+                div(class='col-12')
+                  div(class='container itemContent')
+                    h3= item.caption
+                    div(class='descriptionItem')
+                      each pointItem in item.descriptionItem
+                        li= pointItem
+                div(class='col-12')
+                  div(class='txtDateRange text-center')
+                    img(src=(index % 2 == 0)?'../images/line_Pos.svg':'../images/line_Neg.svg', class='w-100')
+                    div= item.dateString
+  

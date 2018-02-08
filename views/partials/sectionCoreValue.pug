@@ -1,18 +1,12 @@
-div(class='cover-container contentWrapper coreValue', style='background-image:url(./images/core_bg.png)')
+div(class='cover-container contentWrapper core-value')
     div(class='container')
         div(class='row')
-          div(class='col text-center')
+          div(class='col')
             h1= langText.coreValue.title
-            hr(class='hrYellow')
-            div(class='row justify-content-center')
-              each item, index in langText.coreValue.items
-                if index % 2 == 0
-                  div(class='col-10 col-md-4 col-xl coreValueItem', style='min-height: 25rem; margin-bottom: 1rem;', data-aos="flip-left", data-aos-delay!=(index*200))
-                    img(src!='./images/coreValue' + index + '.svg', style='height: 150px')
-                    div(class='coreValueItemHeader')= item.caption
-                    div(class='coreValueItemDescription')= item.description
-                else
-                  div(class='col-10 col-md-4 col-xl coreValueItem', style='min-height: 25rem; margin-bottom: 1rem;', data-aos="flip-right", data-aos-delay!=(index*200))
-                    img(src!='./images/coreValue' + index + '.svg', style='height: 150px')
-                    div(class='coreValueItemHeader')= item.caption
-                    div(class='coreValueItemDescription')= item.description
+            hr(class='yellow')
+            div(class='row justify-content-around')
+              each item in langText.coreValue.items
+                div(class='col text-center')
+                  img(src!='../images/' + item.icon)
+                  h2= item.caption
+                  div(class='text-left itemContent')= item.description

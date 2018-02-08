@@ -11,6 +11,7 @@ $theme-yellow : rgba(255, 191, 1, 1);
 body {
     color: $primary-txt-color;
     font-size: 14px;
+    overflow-x: hidden;
 }
 
 :not(i) {
@@ -30,6 +31,9 @@ body {
 
 .topNav.active {
     opacity: 1;
+    .btn.btn-lang:not(.active) {
+        color: $theme-yellow;
+    }
 }
 
 /* global */
@@ -50,12 +54,29 @@ h1 {
     font-family: $font-family-header;
     text-align: center;
     line-height: 40px;
+    &.white {
+        color: #FFFFFF !important;
+    }
 }
 h2 { font-size: 30px; color: $primary-txt-color; font-family: $font-family-header; }
+h3 { font-size: 20px; color: $primary-txt-color; font-family: $font-family-header; }
 
 ul {
     margin: 5px 0 0 0;
-    li { margin-bottom: 5px; line-height: 25px; }
+    li { 
+        margin-bottom: 5px; line-height: 25px;  margin-left: -1em;
+        list-style: disc;
+    }
+}
+
+.btn.btn-lang {
+    background: transparent;
+    color: #4A4A4A;
+}
+
+.btn.btn-lang.active {
+    color: #4A4A4A;
+    background-color: #FFFFFF;
 }
 
 /* site-header */
@@ -63,7 +84,7 @@ ul {
 .site-header {
     color: $primary-txt-color;
     padding-top: 2rem;
-    background-image: url(../images/background/BG1.png);
+    background-image: url(../images/background/BG1.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,8 +93,8 @@ ul {
     }
     .caption { font-size: 72px; }
     .subCaption { font-size: 48px; font-family: $font-family-thin; }
-    .footer {
-        margin-top: 25px 0 0 0;
+    .social {
+        margin-top: 15px;
         i { margin-right: 1rem; }
     }
     .btnDownload-wrapper {  
@@ -82,6 +103,7 @@ ul {
             padding: 12px 28px 15px 28px;
             background-color: rgba(255,255,255,.5);
             color: #373A3C;
+            z-index: 101;
         }
     }
 }
@@ -95,7 +117,7 @@ ul {
 
 /* solution */
 .solution1 {
-    background-image: url(../images/background/BG2.png);
+    background-image: url(../images/background/BG2.svg);
     background-position: top left; 
     background-repeat: no-repeat;
     background-size: cover; 
@@ -109,7 +131,7 @@ ul {
     .sectionRemark {
         background-color: rgba(255,255,255,0.7);
         padding: 36px 28px 25px 54px;
-        box-shadow: #DFDFDF 5px 5px 5px; 
+        box-shadow: 4px 4px 10px 0 rgba(0,0,0,0.10);
         .txt-thin-30 {
             margin: 5px 0 0 0;
             font-family: $font-family-thin;
@@ -129,12 +151,17 @@ ul {
 }
 
 .solution2 {
-    padding: 85px 0 93px 0;
-    background-color: rgba(248, 248, 248, 1);
+    padding: 85px 0 0 0;
+    background-image: url(../images/background/BG3.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: -3rem;
+    .solution2-3rdItem { margin: 100px 0 0 0; }
 }
 
 .solution3 {
-    padding: 85px 0 85px 0;
+    padding: 113px 0 85px 0;
     background-color: rgba(255, 255, 242, 1);
     .content-block{
         h2:nth-child(4) {
@@ -143,268 +170,91 @@ ul {
     }
 }
 
+/* core-value */ 
+.core-value {
+    background-color: rgba(248, 248, 248, 1);
+    padding: 85px 0 85px 0;
+    img { margin: 90px auto 40px auto; }
+    div.itemContent { line-height: 25px; margin-top: 15px; }
+}
 
-.contentWrapper {
-    padding: 4rem 0;
-    color: #333333;
-    background-size: cover;
+/* Block Chain */
+.blockChain {
+    .section1 {
+        padding: 85px 0 85px 0;
+        background-color:  rgba(255, 255, 242, 1);
+        .description { margin: 0 0 60px 0; }
+        .card {
+            margin: 5px 0 5px 0;
+            border: 1px solid #F0EEF0;
+            border-radius: 4px 4px 0 0;
+            .card-header.yellow { background-color: $theme-yellow;  }
+            .card-body li {
+                display: inline-block;
+                font-size: 14px;
+                width: 20%;
+                margin: 15px 0 0 0;
+            }
+        }
+    }
+}
+
+/* roadMap */
+.roadMap {
+    &.roadMapItemBackground {
+        background-color: #FFBF00;
+        background-repeat: no-repeat;
+        background-image: url(../images/14.svg);
+        background-position: left bottom;
+    }
+    .roadMapContent {
+        padding: 85px 0 0 0;
+        .roadMapItem {
+            .txtDateRange {
+                padding: 34px 0;
+                font-size: 20px;
+                color: #FFFFFF;
+                line-height: 25px;
+            }
+            .itemContent {
+                padding: 1.5rem 2rem 0 2rem;
+                background-image:url(../images/13.svg);
+                background-repeat: no-repeat;
+                background-position: top center;
+                background-size: 100%;
+                min-height: 371px;
+                .descriptionItem {
+                    margin-top: 15px; 
+                    li {
+                        list-style: none;
+                        line-height: 25px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ecosphere */
+.ecosphere {
+    background-image: url(../images/background/BG4.svg);
+    background-repeat: no-repeat;
     background-position: top center;
-    background-repeat: no-repeat;
-    font-size: 13px;
-}
-
-.theProblem {
-    background-color: #FFBF00;
-    background-image: url(../images/partner_bg_resize.png); 
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-}
-
-.carousel-inner-item {
-    min-height: 30vh;
-}
-
-.carousel-inner-item-content {
-    font-size: 16px;
-}
-
-@media(min-width: 1200px) {
-    .contentBlock-header h4 {
-        font-size:2.5em !important;
-    }
-    .contentBlock-subHeader {
-        font-size:1.5em !important;
-    }
-    .contentBlock-subContent {
-        font-size:1.1em;
-    }
+    background-size: 100%;
+    padding: 85px 0 85px 0;
 }
 
 
-@media(max-width: 1200px) {
-    .carousel-inner-item-content {
-        font-size: 1rem
-    }
-}
-
-@media(max-width:540px) {
-    .carousel-inner-item {
-        min-height: 90vh;
-    }
-}
-
-.coreValueItem {
-    background-color: #FFBF00;
-    border: 1px solid #FFBF00;
-    border-bottom-right-radius: 20px;
-    margin: 0 0.5rem;
-    font-size: 13px;
-    padding: 3rem 0 4rem 0;
-    box-shadow: 6px 7px 10px #888888;
-}
-
-.coreValueItemHeader {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
-.coreValueItemDescription {
-    line-height: 2rem;
-    margin: 0 0.5rem;
-}
-
-.btn.btn-subscribe {
-    background-color: #FFBF00;
-}
-
-.btn.btn-lang {
-    background: transparent;
-    color: #4A4A4A;
-}
-
-.btn.btn-lang.active {
-    color: #4A4A4A;
-    background-color: #FFFFFF;
-}
-
-.roadMapHeader {
-    font-weight: bold;
-    color: #FFBF00;
-    line-height: 2rem;
-}
-
-.roadMapItem {
-    font-weight: normal;
-    color: #FFFFFF;
-}
-
-.distributionTableArrow {
-    width: 48px;
-    height: 48px;
-    background-color: #C0C0C0; 
-    transform: rotate(45deg);
-    margin: 0 auto;
-    margin-top: -3rem;
-}
-.distributionTable {
-    width: 80%; 
-    margin: 2rem auto; 
-    background-color: #C0C0C0; 
-    padding: 2rem;
-    border-radius: 5px;
-}
-
+/* founder */
 .founder {
-    background: #505050; 
-    background-image:url(../images/founder_bg.svg); 
-    background-size: 80%; 
-    background-repeat: no-repeat; 
-    background-position: top center;
+    padding: 85px 0 85px 0;
+    background-color: rgba(255,191,0,0.05);
 }
 
-.founderContainer {
-    background-color: #FFFFFF;
-    padding: 1rem;
-    margin-bottom: 2.5rem;
-}
-
-.founderImage {
-    width: 150px;
-    height: 150px; 
-    border-radius: 150px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 2px solid #646464;
-}
-
-.founderName {
-    font-size: 1.5em;
-} 
-
-
-.solutionItem {
-    margin: 2rem 0;
-}
-
-.particle-network-animation {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	
-  
-  &::before {
-    z-index: -2;
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    // background-image: url(http://web.frfr.me/dev/world-map-optimized.jpg);
-    background-image: url(https://images.unsplash.com/photo-1450849608880-6f787542c88a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=786a67dca1d8791d181bfd90b16240d9);
-    background-position: center center;
-  background-size: cover;
-    opacity: 0.2;
-  }
-}
-.glow {
-  z-index: -1;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  background-image: radial-gradient(circle closest-side, rgba(255, 255, 255, 0.025), transparent);
-}
-$duration: 25s;
-.glow-1 {
-  width: 150vw;
-  height: 150vh;
-  margin-top: -75vh;
-  margin-left: -75vw;
-  animation: glow-1-move $duration linear infinite both;
-}
-@keyframes glow-1-move {
-  from {
-    transform: translate(-100%, 100%);
-  }
-  to {
-    transform: translate(100%, -100%);
-  }
-}
-.glow-2 {
-  width: 100vw;
-  height: 100vh;
-  margin-top: -50vh;
-  margin-left: -50vw;
-  animation: glow-2-move $duration linear $duration / 3 infinite both;
-}
-@keyframes glow-2-move {
-  from {
-    transform: translate(-100%, 0%);
-  }
-  to {
-    transform: translate(100%, 100%);
-  }
-}
-.glow-3 {
-  width: 120vw;
-  height: 120vh;
-  margin-top: -60vh;
-  margin-left: -60vw;
-  animation: glow-3-move $duration linear $duration / 3 * 2 infinite both;
-}
-@keyframes glow-3-move {
-  from {
-    transform: translate(100%, 100%);
-  }
-  to {
-    transform: translate(0%, -100%);
-  }
-}
-
-.animateme
-{
-  width:80%;
-  padding:10%;
-  transform-origin:center center center;
-}
-
-.particle-network-animation {
-    cursor: normal;
-    --cursorX: 100vw;
-    --cursorY: 100vh;
-}
-.particle-network-animation:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  background: radial-gradient(
-    circle 100vmax at var(--cursorX) var(--cursorY),
-    rgba(0,0,0,0.0) 0%,
-    rgba(0,0,0,.5) 50%,
-    rgba(0,0,0,.5) 100%
-  )
-}
-
-.contentBlock {
-    background-color: #909090;
-    margin: 1rem 0;
-    padding: 2rem
-}
-.contentBlock h4 {
-    color: #FFBF00;
-}
-.contentBlock small {
-    margin-top: 0.8rem !important;
-    font-size: .7em !important;
-}
-
-.contentBlock div {
+/* footer */
+.footer {
+    padding: 45px 0 45px 0;
     color: #FFFFFF;
+    background-color: #4A4A4A;
 }
-

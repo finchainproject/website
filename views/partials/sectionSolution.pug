@@ -17,11 +17,11 @@ div(class='cover-container w-100 solution1')
                 each pointItem in item.subItems
                   li= pointItem
             div(class='col-md-5')
-              img(src='http://via.placeholder.com/540x370')
+              img(src!='../images/' + item.image)
         else
           div(class='row  align-items-center section')
             div(class='col-md-5')
-              img(src='http://via.placeholder.com/540x370')
+              img(src!='../images/' + item.image, style='position: relative; left: -7em')
             div(class='col-md-7')
               h2!= item.title
               div(class='description')!= item.description
@@ -41,6 +41,8 @@ div(class='cover-container w-100 solution2')
     div(class='row'): div(class='col')
       h1= solution2.title
       hr(class='yellow')
+      div(class='text-center')
+        img(src='../images/4.svg')
       - var solution2Items = solution2.items
       div(class='row')
         div(class='col')
@@ -55,7 +57,9 @@ div(class='cover-container w-100 solution2')
           ul
             each pointItem in solution2Items[1].subItems
               li= pointItem
-      div(class='row')
+      div(class='row solution2-3rdItem')
+        div(class='col')
+          img(src='../images/5.svg', style='position:relative')
         div(class='col')
           h2= solution2Items[2].title
           div= solution2Items[2].description
@@ -68,12 +72,25 @@ div(class='cover-container w-100 solution3')
     div(class='row'): div(class='col')
       h1= solution3.title
       hr(class='yellow')
-      div(class='row')
-        div(class='col content-block')
-          each item in solution3.items
-            h2= item.title
-            div= item.description
-            ul
-              each pointItem in item.subItems
-                li= pointItem
-        div(class='col')
+      
+      each item, index in solution3.items
+        if index % 2 == 0 
+          div(class='row align-items-center')  
+            div(class='col content-block')  
+              h2= item.title
+              div= item.description
+                ul
+                each pointItem in item.subItems
+                  li= pointItem
+            div(class='col text-center')
+              img(src!='../images/' + item.image)
+        else
+          div(class='row align-items-center')  
+            div(class='col text-center')
+              img(src!='../images/' + item.image)
+            div(class='col content-block')  
+              h2= item.title
+              div= item.description
+                ul
+                each pointItem in item.subItems
+                  li= pointItem
