@@ -320,7 +320,7 @@ module.exports = {
         ]
     },
     'ecosphere' : {
-        'title' : 'FINCHAIN 生態圈',
+        'title' : 'FINCHAIN生态圈',
         'items' : [
             {
                 'header' : '区块链奖励机制 (Proof of Intelligence)',
