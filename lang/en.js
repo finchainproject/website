@@ -9,7 +9,7 @@ module.exports = {
         'subscribeBox' : {
             'catopion' : '预售结束<br />共筹集200万美元',
             'btnSubscribeBox' : '订阅电子报',
-            'btnWhitePaper' : '下载白皮书',
+            'btnWhitePaper' : 'Download White Paper',
         }
     },
     'coreModule' : {
@@ -276,23 +276,23 @@ module.exports = {
         'description' : 'Finchain is a blockchain based project and will support all applications. A real all in one solution for crypto market investors, serving all application related to finance, social, marketplace, remittance, data, etc.',
         'levels' : [
             {
-                'header' : 'Finchain应用层',
+                'header' : 'Finchain Application Layer',
                 'items' : [
-                    '大数据分析平台', '交易所', '社交平台', '数字资产钱包', '彭博等级的数据库', '商业应用商店', '数据信息流', '內容信息流', '金融产品商店', 'ALL IN ONE资产管理系统'
+                    'Big Data Analytics Tools', 'Exchange', 'Social Platform', 'Wallet', 'Bloomberg Level Database', 'Financial Application Store', 'Datafeeds', 'Content Datafeeds', 'Marketplace for Financial Products', 'ALL IN ONE asset management system'
                 ]
             },
             {
-                'header' : 'Finchain服务层',
+                'header' : 'Finchain Service Layer',
                 'items' : []
             },
             {
-                'header' : 'Finchain核心层',
+                'header' : 'Finchain Core Layer',
                 'items' : [
-                    '智能合约', '发电厂', '数字货币'
+                    'Smart Contract', 'Power Factory', 'Token'
                 ]
             },
             {
-                'header' : 'Finchain区块链',
+                'header' : 'Finchain Blockchain',
                 'items' : []
             }
         ]
