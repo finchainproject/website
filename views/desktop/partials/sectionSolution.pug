@@ -17,12 +17,12 @@ div(class='cover-container w-100 solution1')
                 each pointItem in item.subItems
                   li= pointItem
             div(class='col-md-5')
-              img(src!='../images/' + item.image)
+              img(src!='../images/' + item.image, class=(item.imageClass?item.imageClass:''))
         else
           div(class='row  align-items-center section')
-            div(class='col-md-5')
-              img(src!='../images/' + item.image, style='position: relative; left: -7em')
-            div(class='col-md-7')
+            div(class='col-md-5 col-lg-5')
+              img(src!='../images/' + item.image, class='leftSideImage')
+            div(class='col-md-7 col-lg-7')
               h2!= item.title
               div(class='description')!= item.description
               ul
@@ -41,8 +41,8 @@ div(class='cover-container w-100 solution2')
     div(class='row'): div(class='col')
       h1= solution2.title
       hr(class='yellow')
-      div(class='text-center')
-        img(src='../images/4.svg')
+      div(class='row justify-content-center'): div(class='col-10'): div(class='text-center')
+        img(src='../images/4.svg', class='w-100')
       - var solution2Items = solution2.items
       div(class='row')
         div(class='col')
@@ -58,9 +58,9 @@ div(class='cover-container w-100 solution2')
             each pointItem in solution2Items[1].subItems
               li= pointItem
       div(class='row solution2-3rdItem')
-        div(class='col')
-          img(src='../images/5.svg', style='position:relative')
-        div(class='col')
+        div(class='col-md-6')
+          img(src='../images/5.svg', class='leftSideImage')
+        div(class='col-md-6')
           h2= solution2Items[2].title
           div= solution2Items[2].description
           ul

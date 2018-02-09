@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="221px" viewBox="0 0 204 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="FINCHAIN_VER1.0_20180208" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-264.000000, -9297.000000)">
+        <g id="Group-6" transform="translate(267.000000, 9300.000000)" fill="#EAE7E7" fill-rule="nonzero" stroke="#FFBF00" stroke-width="6">
+            <g id="Group-4">
+                <path d="M195.731581,54.3410654 L101.231716,0.591144154 C99.8458582,-0.197048051 98.15372,-0.197048051 96.7678625,0.591144154 L2.26799678,54.3410654 C0.863998773,55.1384959 0,56.6254371 0,58.2291164 L0,156.770779 C0,158.374458 0.863998773,159.861399 2.26799678,160.65883 L96.7678625,214.408751 C97.4610022,214.803057 98.2258605,215 99,215 C99.7741395,215 100.538998,214.803057 101.232137,214.408751 L195.732003,160.65883 C197.136001,159.861399 198,158.374458 198,156.770779 L198,58.2291164 C197.999578,56.6254371 197.135579,55.1384959 195.731581,54.3410654 Z" id="Shape-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

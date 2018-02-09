@@ -1,0 +1,84 @@
+- var solution1 = langText.solution.section[0]
+- var solution2 = langText.solution.section[1]
+- var solution3 = langText.solution.section[2]
+
+div(class='cover-container w-100 solution1')
+  div(class='container')
+    div(class='row'): div(class='col')
+      h1= solution1.title
+      hr(class='white')
+      each item, index in solution1.items
+        if index % 2 == 0 
+          div(class='row  align-items-center section')
+            div(class='col-12')
+              img(src!='../images/' + item.image, class='w-100')
+            div(class='col-12')
+              h2!= item.title
+              div(class='description')!= item.description
+              ul
+                each pointItem in item.subItems
+                  li= pointItem
+        else
+          div(class='row  align-items-center section')
+            div(class='col-12')
+              img(src!='../images/' + item.image, class='w-100')
+            div(class='col-12')
+              h2!= item.title
+              div(class='description')!= item.description
+              ul
+                each point in item.subItems
+                  li= point
+    div(class='row sectionRemark')
+      div(class='col-12 text-center')
+        h2!= solution1.descriptionBlock.caption
+      div(class='col-12')
+        each item in solution1.descriptionBlock.contentItem
+          h2= item.header
+          div(class='content')= item.content
+
+div(class='cover-container w-100 solution2')
+  div(class='container')
+    div(class='row'): div(class='col')
+      h1= solution2.title
+      hr(class='yellow')
+      div(class='row justify-content-center'): div(class='col-10'): div(class='text-center')
+        img(src='../images/4.svg', class='w-100')
+      - var solution2Items = solution2.items
+      div(class='row')
+        div(class='col-12')
+          h2= solution2Items[0].title
+          div= solution2Items[0].description
+          ul
+            each pointItem in solution2Items[0].subItems
+              li= pointItem
+        div(class='col-12')
+          h2= solution2Items[1].title
+          div= solution2Items[1].description
+          ul
+            each pointItem in solution2Items[1].subItems
+              li= pointItem
+      div(class='row solution2-3rdItem')
+        div(class='col-md-6')
+          img(src='../images/5.svg', class='w-100')
+        div(class='col-md-6')
+          h2= solution2Items[2].title
+          div= solution2Items[2].description
+          ul
+            each pointItem in solution2Items[2].subItems
+              li= pointItem
+
+div(class='cover-container w-100 solution3')
+  div(class='container')
+    div(class='row'): div(class='col')
+      h1= solution3.title
+      hr(class='yellow')
+      each item, index in solution3.items
+        div(class='row align-items-center contentItem')  
+          div(class='col-12 text-center')
+            img(src!='../images/' + item.image, class='w-50')
+          div(class='col-12 content-block')  
+            h2= item.title
+            div= item.description
+              ul
+              each pointItem in item.subItems
+                li= pointItem

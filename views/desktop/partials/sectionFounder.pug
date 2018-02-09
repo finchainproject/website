@@ -1,0 +1,14 @@
+- var founders = langText.founder.founders
+div(class='cover-container contentWrapper founder')
+    div(class='container'): div(class='row')
+      div(class='col')
+        h1()= langText.founder.title
+        hr(class='yellow')
+        each founder, index in founders
+          div(class='row justify-content-center'): div(class='col-10 founderItem', class=(index % 2 == 0)?'text-left':'text-right')
+            if index % 2 == 0
+              img(src='../images/hexagon.svg')
+              div(class='leftSide')= founder.name
+            else
+              div(class='rightSide')= founder.name
+              img(src='../images/hexagon.svg')

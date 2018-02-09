@@ -1,0 +1,8 @@
+div(class='cover-container w-100')
+    div(class='titleLabel ')
+        div= langText.coreModule.title
+    div(class='container core-module'): div(class='row justify-content-around justify-content-md-end justify-content-lg-end')
+        each content in langText.coreModule.items
+            div(class='col-5 col-md-5')
+                h2= content.header
+                p(class='content')= content.content

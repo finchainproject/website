@@ -6,7 +6,10 @@ div(class='cover-container h-75 w-100 site-header')
         button(class='btn btn-lang', class=currentLang == 'en' ? 'active' : '' onclick="window.location='/en'") EN
     div(class='row justify-content-md-center h-100 text-center')
       div(class='col align-self-center')
-        //- img(class='site-logo', src='./images/Logo.png')
+        div(class='logo')
+          img(class='site-logo', src='./images/finchain-logo.svg')
+          span(class='bold')= 'FIN'
+          span= 'CHAIN'
         div(class='caption')!= langText.topBanner.caption
         div(class='subCaption')= langText.topBanner.subCaption
         div(class='description')
