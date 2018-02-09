@@ -139,9 +139,17 @@ ul {
     background: $theme-yellow; 
     color: #FFFFFF;
     font-size: 40px;
+    height: auto;
     div {
         vertical-align: middle;
         padding: 50px 22px;
+        &.engLabel {
+            transform: rotate(90deg);
+            white-space: nowrap;
+        }
+    }
+    &.engLabel { 
+        height: 400px;
     }
 }
 

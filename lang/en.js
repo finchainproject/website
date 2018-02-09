@@ -13,7 +13,7 @@ module.exports = {
         }
     },
     'coreModule' : {
-        'title' : '核心模块',
+        'title' : 'Major Modules',
         'items' : [
             {
                 'header' : 'Professional User Generated Content Platform',
