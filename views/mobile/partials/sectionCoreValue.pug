@@ -5,8 +5,8 @@ div(class='cover-container contentWrapper core-value')
             h1= langText.coreValue.title
             hr(class='yellow')
             div(class='row justify-content-around')
-              each item in langText.coreValue.items
-                div(class='col-12 text-center')
+              each item, index in langText.coreValue.items
+                div(class='col-12 text-center', data-aos=(index % 2 == 0)?'fade-right':'fade-right')
                   img(src!='../images/' + item.icon)
                   h2= item.caption
                   div(class='text-left itemContent')= item.description

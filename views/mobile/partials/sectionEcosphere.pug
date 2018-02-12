@@ -9,8 +9,14 @@ div(class='cover-container w-100 ecosphere')
                     img(src='../images/12.png', class='w-75')
             div(class='row content')
                 div(class='col-12')
-                    div(class='card')= ecosphere.items[0].content
+                    div(class='card')
+                        div(class='card-header'): strong= ecosphere.items[0].header
+                        div(class='card-body')= ecosphere.items[0].content
                 div(class='col-12')
-                    div(class='card')= ecosphere.items[1].content
+                    div(class='card')
+                        div(class='card-header'): strong= ecosphere.items[1].header
+                        div(class='card-body')= ecosphere.items[1].content
                 div(class='col-12')
-                    div(class='card')= ecosphere.items[2].content
+                    div(class='card')
+                        div(class='card-header'): strong= ecosphere.items[2].header
+                        div(class='card-body')= ecosphere.items[2].content

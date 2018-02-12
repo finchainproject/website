@@ -5,7 +5,7 @@ div(class='cover-container contentWrapper founder')
         h1()= langText.founder.title
         hr(class='yellow')
         each founder, index in founders
-          div(class='row justify-content-center'): div(class='col-10 founderItem', class=(index % 2 == 0)?'text-left':'text-right')
+          div(class='row justify-content-center'): div(class='col-10 founderItem', class=(index % 2 == 0)?'text-left':'text-right', data-aos='fade-up')
             if index % 2 == 0
               img(src='../images/hexagon.svg', class='w-25')
               div(class='leftSide')= founder.name
