@@ -302,20 +302,14 @@ module.exports = {
         'title' : '创办人',
         'founders' : [
             {
-                'image' : '',
-                'name' : 'Ryan Cheung'
+                'image' : '../images/founders/Ryan.svg',
+                'name' : 'Ryan Cheung',
+                'description' : '<div>Mr. Ryan Cheung was graduated from The University of Hong Kong. He has vast experiences in Fintech (Financial technology) industry. He started his career in Commerzbank AG as Financial Institutions Sales in the Equity Markets and Commodities Department, facing institutional clients and delivering structured products solutions in Equity and Commodities Derivatives sectors. In 2014, at his age of 26, he joined Leonteq Securities AG as the youngest Director in Asia, responsible for structured solutions business and expanding its Asia franchise. Leonteq was a leading and disruptive expert for structured investment products supported by its market-leading technology platform. </div><div>Starting from 2015, Mr. Ryan Cheung joined the internet industry. He founded an internet company and sold it within 10 months of launching. After that he founded the successful internet business “PressLogic”, which developing a proprietary AI system for managing media network, he led the team as CEO growing from 10 people to more than 100 people, expanding from Hong Kong to other Asian countries and achieved profitable business model within short period of time. He managed to close a series A funding from Meitu after one year of launching. </div><div>Mr. Ryan Cheung has discovered the world of cryptocurrency during his investment banking life back in 2012. The innovation and disruptive power of blockchain technology has pushed Mr. Ryan Cheung as early investor in Bitcoin and started absorbing as much knowledge as possible about cryptocurrency.</div>'
             },
             {
-                'image' : '',
-                'name' : 'Edward Chow'
-            },
-            {
-                'image' : '',
-                'name' : 'Edward Chow'
-            },
-            {
-                'image' : '',
-                'name' : 'Ryan Cheung'
+                'image' : '../images/founders/Edward.svg',
+                'name' : 'Edward Chow',
+                'description' : '<div>Mr. Edward Chow was graduated from The University of Hong Kong. He has vast experiences in Security and Cryptography. He has been focusing at software development and security consultancy for traditional banks and financial institutions. He co-founded the successful internet business “Presslogic” and assembled a team of over 20 developers to create a proprietary AI system for managing media network. He discovered the world of cryptocurrency during his study in the area of cryptosystem and payment protocols in 2012. He has been absorbing as much knowledge as possible about blockchains and decentralized systems ever since. He leads the development at Finchain and implemented smart contracts behind the Finchain platform.</div>'
             }
         ]
     },

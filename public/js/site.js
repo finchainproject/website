@@ -185,5 +185,16 @@ $().ready( () => {
 			return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
 		}
 	})();
+	
 	AOS.init();
+
+	$('div[id^="founderItem"]').bind('click', function() {
+		var founder = JSON.parse($(this).attr('founder'));
+		console.log(founder.name);
+		
+		$('#founderName').html(founder.name);
+		$('#founderDescription').html(founder.description);
+		$('#founderModal').modal();
+	});
 });
+
