@@ -136,7 +136,7 @@ module.exports = {
                     },
                     {
                         'title' : 'Marketplace for Financial Products & Derivatives',
-                        'image' : '7.svg',
+                        'image' : '7_en.png',
                         'description' : 'Approved financial institutions will offer financial products, derivatives, coin traded funds (CTF) for our platform users.',
                         'subItems' : [
                             'Decentralized rating system such as risk rating & return on investment',
