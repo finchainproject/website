@@ -1,0 +1,18 @@
+- var ecosphere = langText.ecosphere
+div(class='cover-container w-100 ecosphere')
+    div(class='row'): div(class='col')
+        h1= ecosphere.title
+        hr(class='yellow')
+        div(class='row')
+            div(class='col-12 text-center')
+                div(class='card topSide')= ecosphere.items[0].content
+                    div(class='arrow topSide')
+        div(class='row')
+            div(class='col-4')
+                div(class='card leftSide')= ecosphere.items[2].content
+                    div(class='arrow rightSide')
+            div(class='col-4')
+                img(src='../images/12.png', class='w-100')
+            div(class='col-4')
+                div(class='card rightSide')= ecosphere.items[1].content
+                    div(class='arrow leftSide')

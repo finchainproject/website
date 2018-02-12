@@ -1,0 +1,21 @@
+div(class='cover-container contentWrapper distributionOfTokens', style='background-image:url(./images/Distribution_bg.svg)')
+      div(class='container')
+        div(class='row')
+          div(class='col')
+            h1(class='text-center')= langText.distributionOfTokens.title
+            hr(class='hrYellow')
+            div(class='text-center') 
+              canvas(id='myChart', style='width:100%; max-width:500px; margin:0 auto')
+              div(class='row', style='margin-top: 1rem;')
+                each item in langText.distributionOfTokens.legendItems
+                  div(class='col-3')
+                    div
+                      div(style!='display:inline-block; vertical-align:middle; width: 16px; height: 16px; margin-right:1rem; background-color: ' + item.color)
+                      div(style='display:inline-block; vertical-align:middle;')= item.caption
+              div(class='distributionTable')
+                div(class='distributionTableArrow')
+                each item in langText.distributionOfTokens.items
+                  div(class='text-left', style='margin-bottom: 2rem;')
+                    h3= item.value + ' '
+                      small(style='font-size: 0.7em')= item.caption
+                    div(style='line-height: 2em;')= item.description

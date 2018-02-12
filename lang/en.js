@@ -1,92 +1,147 @@
 module.exports = {
     'title' : 'FINCHAIN', 
     'topBanner' : {
-        'caption' : '数字货币',
-        'subCaption' : '的去中心化金融生态中心',
+        'caption' : 'Bloomberg for Cryptocurrency',
+        'subCaption' : 'Decentralized Financial Ecosystem',
         'description' : [
-            'User generated content & professional user generated content platform & community',
-            'Bloomberg for Cryptocurrency'
+            '',
         ],
         'subscribeBox' : {
-            'catopion' : '预售结束，共筹集200万美元',
-            'btnSubscribeBox' : '订阅(电子报)',
-            'btnWhitePaper' : 'White Paper',
+            'catopion' : '预售结束<br />共筹集200万美元',
+            'btnSubscribeBox' : '订阅电子报',
+            'btnWhitePaper' : 'Download White Paper',
         }
     },
-    'theProblem' : {
-        'title' : 'Problems',
-        'description' : 'In the era of big data, investors only need to concern how to find out truly valuable information and insights from the unstructured data and fragmented content platform. In current crytocurrency and blockchain markets, real users often have no incentive to share and publish quality content. On the contrary, people who publish content often are in fact done it on purpose. Because many people are actually invest crytocurrency for speculation and profit. Due to the fragmentation of the content platform, the lack of management and clear regulations  makes information and data difficult to verify.'
+    'coreModule' : {
+        'title' : 'Major Modules',
+        'items' : [
+            {
+                'header' : 'Professional User Generated Content Platform',
+                'content' : 'Finchain is committed to build the world\'s largest community of cryptocurrency and blockchains and promise to share the success of the platform with every user, including content creators, curators and commentators. The journey of a thousand miles begins with one step, with utilizing our cryptocurrency (Finchain), proprietary blockchain technology and rewards scheme (Proof of Intelligence), we will able to motivate users to generate quality content and participate to build a health community spontaneously. According to their contribution level, they can get the corresponding Finchain and Finpower in return. The decision of the content value will be decentralized, and the value of the post will be shared by content creators and curators. Content creators will get most of the rewards. For the curators, they will get more rewards if they found a quality content and vote it earlier than others.'
+            },
+            {
+                'header' : 'Bloomberg for Cryptocurrency',
+                'content' : 'Finchain is aimed to be the Bloomberg for Cryptocurrency, providing the most advanced and professional analysis platform. Cryptocurrency and blockchain database will be provided for users to query all the industry information and dynamic content. Advanced features such as trading suggestions and consulting services will be available. Initially, the platform will focus on text mining, sentiment analysis, news and data push from multiple source. Users will be able to view multi-sourced data, a variety of professional charts and independent analytics via mobile and web terminals. In the future, we will introduce more data feeds and machine learning models to provide users with more accurate information, analysis and insight. We will also develop a variety of extended applications, users can directly link third-party services, such as exchanges and asset management platform.'
+            }
+        ]
     },
     'solution' : {
         'title' : '关键功能',
         'section' : [
             {
-                'title' : '建立最大的数字货币内容平台',
+                'title' : 'Building the world largest crypto market content platform',
+                'descriptionBlock' : {
+                    'caption' : 'Blockchain based incentives mechanism:<div class="txt-thin-30">Proof of Intelligence</div> <div class="txt-regular-20">Inspiring and motivating content creation & curation among global</div>',
+                    'contentItem' : [
+                        {
+                            'header' : 'Content Creation',
+                            'image' : 'author.png',
+                            'imageALT' : '发布奖励',
+                            'content' : 'We are willing to share success with the contributors. Content providers and community members will be rewarded. The process will be powered by Proof of Intelligence, which is a blockchain based rewards algorithm that encourages people to create great content.'
+                        },
+                        {
+                            'header' : 'Content Curation',
+                            'image' : 'voter.png',
+                            'imageALT' : '策展奖励',
+                            'content' : 'The quality of content and its intrinsic value will be evaluated by crowds and impacted by voting (upvote & downvote). Curators will be rewarded, especially up-voting new content that ends up being popular.  Proof of Intelligence will motivate users to search and find good content actively and provide the capability of crowdsourcing curation process.'
+                        }
+                    ]
+                },
                 'items' : [
                     {
-                        'title' : '用户生成内容平台并有全球领先的区块链奖励设定',
-                        'image' : 'p01.png',
-                        'description' : '优质的内容提供者和社群贡献者是应该获奖赏和激励的，我们愿意与用户共同分享成功，将采用激励机制以促进更多的用户去生成优质的内容和分享',
+                        'title' : 'Professional UGC Platform with leading blockchain based rewarding scheme',
+                        'image' : '1.svg',
+                        'description' : 'Content providers and community members should be rewarded by their contributions. We\'re willing to share success with our users and use incentives to encourage them to generate more premium content and share.',
                         'subItems' : [
-                            '避免烦扰的行政工作，用户可专注于创作和生成内容，作品可自动获得奖励',
-                            '为社群发展有贡献的人都可以获得应得的酬金，有功必赏，则为善者日进，为恶者日止，而各人亦可以尽展所长'
+                            'Everyone effort and contribution will be evaluated and paid automatically with decentralizing approach.',
+                            'Users can avoid disturbing administrative work and focus on generating high quality content, utilizing their strength and earning the most from our platform.'
                         ]
                     },
                     {
-                        'title' : '以去中心化地共同决定出内容价值',
-                        'image' : 'p02.png',
-                        'description' : '在内容平台中引入价值预测市场，让市场来左右内容的定价，而不是中心化的机构。用户可以用投票方式来对内容定价。',
+                        'title' : 'Decentralized & crowdsourced curation to determine the content value',
+                        'image' : '2.svg',
+                        'description' : 'The quality of content and its intrinsic value will be evaluated by crowds but not a centralized authority.',
                         'subItems' : [
-                            '用户可以去中心化地(点好评)共同决定出内容价值',
-                            '有效避免不公平的酬劳问题，真正地以大众回馈来为内容定价，优质的内容自然可获得更多报酬',
-                            '经过人们对内容价值的理性判断，更多有价值的内容就会被这个市场中参与的人挖掘出来，通过预测市场的机制，解决了优质内容的发现问题'
+                            'Content value will be evaluated by voting (upvote & downvote)',
+                            'Effectively avoid unfair remuneration issues, high-quality content will naturally get more remuneration',
+                            'More high quality and fake content will be discovered by this crowdsourced approach'
                         ]
                     },
                     {
-                        'title' : '感兴趣的精选内容一目了然',
-                        'image' : 'p03.png',
-                        'description' : '定期获取自定义的资讯和精选的市场新闻、见解，并可以设定感兴趣的类型',
+                        'title' : 'Big data acquisition and AI powered content suggestions',
+                        'image' : '3.png',
+                        'imageClass' : 'w-100',
+                        'description' : 'Users can define the type of interest and receive 1-to-1 personalized information and selected market news and insights regularly',
                         'subItems' : [
-                            '相关区块链的最新贴文、信息',
-                            '关注喜欢的内容生产者和他们的投资组合并定期收到相关推送',
-                            '所有内容合作伙伴的相关信息，甚至整个网络汇总'
-                        ]
-                    },
-                    {
-                        'title' : '加密聊天功能',
-                        'image' : 'p04.png',
-                        'description' : '用户和用户之间可以加密聊天，与志同道合的朋友一起于加密市场奋斗',
-                        'subItems' : [
-                            '单对单的加密聊天通道',
-                            '创建小组来讨论交易策略',
-                            '可以互相分享发布交易想法、投资组合'
+                            'Association rule learning will be used to find out user type and interested content',
+                            'AI powered content suggestions and push notifications',
+                            'Follow famous content creators and investors for their latest posts and portfolio updates',
+                            'Content feeds & news summary from the entire partner network'
                         ]
                     }
                 ]
             },
             {
-                'title' : '建立彭博等级的数据库和大数据分析平台',
+                'title' : 'Building Bloomberg standard database & big data analytics platform',
                 'items' : [
                     {
-                        'title' : '详尽精确的数据库和知识库',
-                        'image' : 'p05.png',
-                        'description' : 'FINCHAIN 数据分析平台会建构数字货币和区块链的数据库，目标成为全球领先的数字货币和区块链市场的金融信息服务供货商和数字货币的信息枢纽',
+                        'title' : 'Decentralized Knowledge Base',
+                        'image' : 'kp04-01.png',
+                        'description' : 'Users are encouraged to contribute accurate information and contributors will receive Finchain from the Reward Pool when the information is verified.',
                         'subItems' : [
-                            '可以访问所有你需要知道的ICO和数字货币项目资讯',
-                            '免费查询FINCHAIN 的共建知识库',
-                            '各种专业图表、用户生成内容、专业内容和独立分析'
+                            'Crowdsourced knowledge base & database',
+                            'Submitted content will be verified by expert',
+                            'Any community member can flag and report inaccurate content',
+                            'Significantly increase the quality and quantity of knowledge base & data base'
                         ]
                     },
                     {
-                        'title' : '大数据分析平台 - 降低风险，增加回报',
-                        'image' : 'p06.png',
-                        'description' : '建立世界上最大、最多种类的数据流和大数据分析平台，无论你想从那一方面对加密货币和区块链资产作出分析、找出模式，皆可从我们的平台找到相关的原始数据加以应用',
+                        'title' : 'Detailed & Accurate Crypto-market Database',
+                        'image' : 'kp04-01.png',
+                        'description' : 'Finchain big data analytics platform are building the world largest crypto-market database and target to become the world’s leading financial information service provider and the information hub for crypto-market.',
                         'subItems' : [
-                            '中英文情感分析、文本意见挖掘、多源数据信息推送',
-                            '量化市场情绪并提供相关资讯和洞察给用户',
-                            '数字货币共识定价指数和各种指标',
-                            '各种数据信息流',
-                            '未来会陆续引入各种的机械学习模型'
+                            'Pre-scrape data massage',
+                            'Saving time, all verified data can be found in 1 place',
+                            'Detailed information & analysis for all blockchain based project',
+                            'Professional Chart & Insights'
+                        ]
+                    },
+                    {
+                        'title' : 'Big Data Analytics Platform – Mitigate Risk & Improve Investment Return',
+                        'image' : 'kp05-01.png',
+                        'description' : 'With the world\'s largest and most diverse collection of data feeds and our big data analytics platforms, users can analyse the trends of cryptocurrencies and blockchain assets, find out patterns and answer different types of questions.',
+                        'subItems' : [
+                            'Text mining, sentiment analysis, numerous and diverse data feeds',
+                            'Quantify the market sentiment and provide relevant information & insights',
+                            'Consensus pricing index and various indicators for cryptocurrency',
+                            'Real time & numerous data feeds',
+                            'More machine learning tools are coming'
+                        ]
+                    }
+                ]
+            },
+            {
+                'title' : 'Marketplace for financial applications & products',
+                'items' : [
+                    {
+                        'title' : 'Marketplace for Financial Applications',
+                        'image' : '6.svg',
+                        'description' : 'Developers can distribute their investment applications to crypto market investors around the world through Finchain Financial App Store.',
+                        'subItems' : [
+                            'Trading bot with tailor made investment strategy',
+                            'AI powered investment insights & alert',
+                            'Third party big data application & machine learning algorithm',
+                            'More AI & big data applications coming soon'
+                        ]
+                    },
+                    {
+                        'title' : 'Marketplace for Financial Products & Derivatives',
+                        'image' : '7.svg',
+                        'description' : 'Approved financial institutions will offer financial products, derivatives, coin traded funds (CTF) for our platform users.',
+                        'subItems' : [
+                            'Decentralized rating system such as risk rating & return on investment',
+                            'Blockchain & smart contract-based trading',
+                            'Lower commission fee & decentralized trading possibilities'
                         ]
                     }
                 ]
@@ -97,71 +152,78 @@ module.exports = {
         'title' : 'Core Value',
         'items' : [
             {
-                'caption' : 'Professional & Precise content',
-                'description' : 'In response to market gaps and user pain points to develop incentives scheme which aim to reward content creator and curator to quickly form a professional financial content platform and incubate a investor community.'
+                'caption' : 'Professional & Precise Content',
+                'icon' : '11.svg', 
+                'description' : 'In response to market gaps and user pain points to develop incentives scheme which aim to quickly form a professional financial content platform and incubate a investor community.'
             },
             {
-                'caption' : '稳定的供需',
-                'description' : 'FINCHAIN的基本需求将会十分稳定。大量用户很可能将FINCHAIN转换成FINPOWER，以获得在FINCHAIN平台上额外的效益和优势。例如FINPOWER会令他们的投票更加重要，亦可以让他们定期获得利息等等。'
+                'caption' : 'Contributor Rewards',
+                'icon' : '10.svg', 
+                'description' : 'Contributors will be rewarded for publishing high-quality, professional content, voting for participation, and more. In short, the mechanism can motivate the user to develop the community spontaneously.'
             },
             {
-                'caption' : '获得回报',
-                'description' : '贡献者都能获得回报，如发布高质量及专业的内容、參與投票等等。简单而言，它能以人性化的激励机制去引导用户自发帮助社群健康发展'
+                'caption' : 'Stable Demand',
+                'icon' : '9.svg', 
+                'description' : 'The demand of Finchain is stable. A significant amount of users will likely convert Finchain to Finpower for additional benefits and efficiency. For example, Finpower will make their vote more important and also allows them to regularly receive interest and so on.'
             },
             {
-                'caption' : '高端投资工具',
-                'description' : '研发高端和专业的加密市場投资工具，FINCHAIN货币购买使用权或进行交易可獲得折扣，間接增加FINCHAIN的需求，并帮助构成良好的回圈。'
+                'caption' : 'High-end investment tools',
+                'icon' : '8.svg', 
+                'description' : 'Professional crypto market investment tools, powered by big data, machine learning and AI will be developed. Discounts will be offered for those who use Finchain to pay, which indirectly increase the demand of Finchain and help shaping a positive feedback loop.'
             },
         ]
     },
-    'roadmap' : {
-        'title' : '发展路线图',
+    'roadMap' : {
+        'title' : 'RoadMap',
         'items' : [
             {
                 'dateString' : 'Q2 - Q4 2018',
-                'caption' : '成为专业的投资者内容金融信息平台',
+                'caption' : 'World Largest Crypto-market Content Platform',
+                'image': 'roadmap-01.png',
                 'descriptionItem' : [
-                    '奖励系统',
-                    '订阅系统',
-                    '内容分享平台 Alpha',
-                    '手机应用程式 Alpha',
-                    '即时新闻平台',
-                    '过往价格走势',
-                    '互动数据图表',
-                    '市场情绪分析系统',
-                    '区块链实时分析系统',
+                    'Reward system',
+                    'Subscription system',
+                    'Content Sharing Platform Alpha',
+                    'Mobile application Alpha',
+                    'Instant news platform',
+                    'Historical price movements',
+                    'Interactive chart',
+                    'Market sentiment analysis system',
+                    'Blockchain real-time analysis system'
                 ]
             },
             {
                 'dateString' : 'Q1 - Q2 2019',
-                'caption' : '开发高端和专业的投资工具如彭博、建构自己的区块链',
+                'caption' : 'Big Data Analytics Platform, Build Own Blockchain',
+                'image': 'roadmap-02.png',
                 'descriptionItem' : [
-                    'ICO 分析系统',
-                    '共建知识库',
-                    '交易平台整合',
-                    '交易时机提示',
-                    'ALL IN ONE资产管理系统',
-                    '区块链实时分析系统',
-                    '加密聊天功能',
-                    '建构自己的区块链',
+                    'ICO analysis system',
+                    'Crowdsourced knowledge base',
+                    'Trading platform integration',
+                    'AI powered transaction insights',
+                    'ALL IN ONE asset management system',
+                    'Encrypted chat function',
+                    'Build own blockchain'
                 ]
             },
             {
                 'dateString' : 'Q3 - Q4 2019',
-                'caption' : '开发应用程式商店',
+                'caption' : 'Marketplace for Financial Applications & Products',
+                'image': 'roadmap-03.png',
                 'descriptionItem' : [
-                    '商业应用商店',
-                    '桌上终端机',
-                    '自动交易助手',
-                    '钱包追踪系统',
+                    'Financial application store',
+                    'Desktop terminal',
+                    'Automatic trading assistant',
+                    'Wallet tracking system'
                 ]
             },
             {
-                'dateString' : 'Q4 2019 - ',
-                'caption' : '更多的应用和数据信息流',
+                'dateString' : 'Q4 2019 - Future',
+                'caption' : 'More Applications & Data feeds',
+                'image': 'roadmap-04.png',
                 'descriptionItem' : [
-                    '200+ 数据信息流',
-                    '金融产品商店'
+                    '200+ Datafeeds',   
+                    'Marketplace for Financial Products & Derivatives'
                 ]
             }
         ]
@@ -209,24 +271,67 @@ module.exports = {
             }
         ]
     },
+    'blockChain' : {
+        'title' : 'Blockchain based platform architecture',
+        'description' : 'Finchain is a blockchain based project and will support all applications. A real all in one solution for crypto market investors, serving all application related to finance, social, marketplace, remittance, data, etc.',
+        'levels' : [
+            {
+                'header' : 'Finchain Application Layer',
+                'items' : [
+                    'Big Data Analytics Tools', 'Exchange', 'Social Platform', 'Wallet', 'Bloomberg Level Database', 'Financial Application Store', 'Datafeeds', 'Content Datafeeds', 'Marketplace for Financial Products', 'ALL IN ONE asset management system'
+                ]
+            },
+            {
+                'header' : 'Finchain Service Layer',
+                'items' : []
+            },
+            {
+                'header' : 'Finchain Core Layer',
+                'items' : [
+                    'Smart Contract', 'Power Factory', 'Token'
+                ]
+            },
+            {
+                'header' : 'Finchain Blockchain',
+                'items' : []
+            }
+        ]
+    },
     'founder' : {
-        'title' : '创办人',
+        'title' : 'Founder',
         'founders' : [
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Ryan Cheung'
             },
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Edward Chow'
             },
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Edward Chow'
             },
             {
                 'image' : '',
-                'name' : 'Robert Glometti'
+                'name' : 'Ryan Cheung'
+            }
+        ]
+    },
+    'ecosphere' : {
+        'title' : 'Finchain Ecosystem',
+        'items' : [
+            {
+                'header' : 'Blockchain Based Incentive Scheme (Proof of Intelligence)',
+                'content' : 'The blockchain based incentive scheme is designed to make every contributor reap the rewards and then encourage them to work together to create a decentralized content platform and financial ecosystem. The mechanism encourages the community to share, for example, content creators will be motivated to create good-quality posts. Other users will spontaneously search for good quality content and praise for them. The evaluation of content value on each post will be decentralized.'
+            },
+            {
+                'header' : 'Professional investor community & content platform',
+                'content' : 'Blockchain based incentive scheme can motivate users to search and find good content actively and effectively solve the problem of fake content. Finchain, your one-stop content information solution, will be able to provide more real-time, accurate and detailed content through this crowdsourcing approach. Network effects will happen when most of crypto-market’s participants joined our platform, helping us to form the world\'s largest professional investor community & content platform.'
+            },
+            {
+                'header' : 'Professional investment tools & analytics instruments',
+                'content' : 'Active members on the content platform can easily earn enough Finchain to subscribe our professional services. Finchain analytics platform helps users better predict the trends of cryptocurrency. Therefore, for those subscribed will also be easier to produce content with better quality and help them to earn more Finchain and Finpower. A large community base will help us acquire more professional tools to marketplace, and more users will be willing to subscribe it especially the cost is zero (without paying legal currency). This positive feedback loop will speed up our process of building the entire cryptocurrency ecosystem.'
             }
         ]
     }

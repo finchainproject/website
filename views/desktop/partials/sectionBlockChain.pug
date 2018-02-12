@@ -1,0 +1,19 @@
+- var blockChain = langText.blockChain
+div(class='cover-container w-100 blockChain')
+    div(class='section1')
+        div(class='container'): div(class='row')
+            div(class='col')
+                h1= blockChain.title
+                hr(class='yellow')
+                div(class='text-center description')= blockChain.description
+                each section, index in blockChain.levels
+                    if index > 0 
+                        div(class='text-center'): img(src='./images/arrow.svg')
+                    div(class='card')
+                        div(class='card-header text-center yellow') 
+                            h3= section.header
+                        if section.items.length > 0 
+                            div(class='card-body')
+                                div(class='container text-center')
+                                    each item in section.items
+                                        li= item
