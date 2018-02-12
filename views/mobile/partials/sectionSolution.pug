@@ -10,9 +10,9 @@ div(class='cover-container w-100 solution1')
       each item, index in solution1.items
         if index % 2 == 0 
           div(class='row  align-items-center section')
-            div(class='col-12')
+            div(class='col-12', data-aos='fade-up')
               img(src!='../images/' + item.image, class='w-100')
-            div(class='col-12')
+            div(class='col-12', data-aos='fade-up')
               h2!= item.title
               div(class='description')!= item.description
               ul
@@ -20,18 +20,18 @@ div(class='cover-container w-100 solution1')
                   li= pointItem
         else
           div(class='row  align-items-center section')
-            div(class='col-12')
+            div(class='col-12', data-aos='fade-up')
               img(src!='../images/' + item.image, class='w-100')
-            div(class='col-12')
+            div(class='col-12', data-aos='fade-up')
               h2!= item.title
               div(class='description')!= item.description
               ul
                 each point in item.subItems
                   li= point
     div(class='row sectionRemark')
-      div(class='col-12 text-center')
+      div(class='col-12 text-center', data-aos='fade-up')
         h2!= solution1.descriptionBlock.caption
-      div(class='col-12')
+      div(class='col-12', data-aos='fade-up')
         each item in solution1.descriptionBlock.contentItem
           h2= item.header
           div(class='content')= item.content
@@ -42,25 +42,25 @@ div(class='cover-container w-100 solution2')
       h1= solution2.title
       hr(class='yellow')
       div(class='row justify-content-center'): div(class='col-10'): div(class='text-center')
-        img(src='../images/4.svg', class='w-100')
+        img(src='../images/4.svg', class='w-100', data-aos='fade-up')
       - var solution2Items = solution2.items
       div(class='row')
-        div(class='col-12')
+        div(class='col-12', data-aos='fade-up')
           h2= solution2Items[0].title
           div= solution2Items[0].description
           ul
             each pointItem in solution2Items[0].subItems
               li= pointItem
-        div(class='col-12')
+        div(class='col-12', data-aos='fade-up')
           h2= solution2Items[1].title
           div= solution2Items[1].description
           ul
             each pointItem in solution2Items[1].subItems
               li= pointItem
       div(class='row solution2-3rdItem')
-        div(class='col-md-6')
+        div(class='col-md-6', data-aos='fade-up')
           img(src='../images/5.svg', class='w-100')
-        div(class='col-md-6')
+        div(class='col-md-6', data-aos='fade-up')
           h2= solution2Items[2].title
           div= solution2Items[2].description
           ul
@@ -74,9 +74,9 @@ div(class='cover-container w-100 solution3')
       hr(class='yellow')
       each item, index in solution3.items
         div(class='row align-items-center contentItem')  
-          div(class='col-12 text-center')
+          div(class='col-12 text-center', data-aos='fade-down')
             img(src!='../images/' + item.image, class='w-50')
-          div(class='col-12 content-block')  
+          div(class='col-12 content-block', data-aos='fade-up')  
             h2= item.title
             div= item.description
               ul
