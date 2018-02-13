@@ -73,6 +73,10 @@ ul {
 .btn.btn-lang {
     background: transparent;
     color: #4A4A4A;
+    margin-right: 0.5rem;
+    &:hover {
+        background-color: #FFFFFF;
+    }
 }
 
 .btn.btn-lang.active {
