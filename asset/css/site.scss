@@ -359,23 +359,42 @@ ul {
     padding: 85px 0 85px 0;
     background-color: rgba(255,191,0,0.05);
     .founderItem {
+        margin-bottom: 2rem;
         img {
             display: inline;
         }
-        div { 
-            display: inline; 
-            border-bottom: 5px solid $theme-yellow;
-            font-size: 30px;
+        div {
             font-family: 'Roboto';
             position: relative;
             top: 0.8em;
-            &.leftSide {
-                padding: 14px 100px 14px 25px;
-                left: -0.1em;
+            div.founder-name {
+                display: inline-block; 
+                div {
+                    &.leftSide {
+                        display: inline;
+                        font-size: 30px;
+                        padding: 14px 100px 14px 25px;
+                        left: -0.1em;
+                        border-bottom: 5px solid $theme-yellow;
+                    }
+                    &.founder-title-left {
+                        padding: 42px 100px 14px 25px;
+                    }
+                    &.rightSide {
+                        display: inline;
+                        font-size: 30px;
+                        padding: 14px 25px 14px 100px;
+                        right: -0.1em;
+                        border-bottom: 5px solid $theme-yellow;
+                    }
+                    &.founder-title-right {
+                        padding: 42px 25px 14px 100px;
+                    }
+                }
             }
-            &.rightSide {
-                padding: 14px 25px 14px 100px;
-                right: -0.1em;
+            &.founder-desc {
+                line-height: 25px;
+                font-size: 14px !important;
             }
         }
     }

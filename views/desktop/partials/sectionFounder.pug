@@ -7,17 +7,16 @@ div(class='cover-container contentWrapper founder')
         each founder, index in founders
           div(class='row justify-content-center'): div(class='col-10 founderItem', class=(index % 2 == 0)?'text-left':'text-right', data-aos=(index % 2 == 0)?'fade-left':'fade-right', id='founderItem' + index, founder=founder)
             if index % 2 == 0
-              img(src=founder.image)
-              div(class='leftSide')= founder.name
+              div
+                img(src=founder.image)
+                div(class='founder-name')
+                  div(class='leftSide')= founder.name
+                  div(class='founder-title-left'): small= founder.title
+              div(class='founder-desc')!= founder.description
             else
-              div(class='rightSide')= founder.name
-              img(src=founder.image)
-
-div(class='modal fade', id='founderModal', role='dialog', tabindex='-1', aria-hidden='true')
-  div(class='modal-dialog modal-dialog-centered', role='document')
-    div(class='modal-content')
-      div(class='modal-header')
-        h5(id='founderName')
-        button(class='close', type='button', aria-label='Close', data-dismiss='modal')= 'X'
-      div(class='modal-body')
-        div(id='founderDescription')
+              div
+                div(class='founder-name')
+                  div(class='rightSide')= founder.name
+                  div(class='founder-title-right'): small= founder.title
+                img(src=founder.image)
+              div(class='founder-desc text-left')!= founder.description
