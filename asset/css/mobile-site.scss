@@ -394,6 +394,55 @@ ul {
     }
 }
 
+/* advisor */
+.advisor {
+    padding: 20px 0 20px 0;
+    background-color: rgba(255,191,0,0.05);
+    .advisorItem {
+        margin-bottom: 1rem;
+        img {
+            display: inline;
+        }
+        div {
+            font-family: 'Roboto';
+            position: relative;
+            // top: 1em;
+            div.advisor-name { 
+                div {
+                    &.leftSide {
+                        display: inline;
+                        font-size: 25px;
+                        padding: 14px 50px 14px 20px;
+                        left: -0.1em;
+                        border-bottom: 2.5px solid $theme-yellow;
+                    }
+                    &.advisor-title-left {
+                        margin: 28px 0 0 20px;
+                    }
+                    &.rightSide {
+                        display: inline;
+                        font-size: 25px;
+                        padding: 14px 20px 14px 50px;
+                        right: -0.1em;
+                        border-bottom: 2.5px solid $theme-yellow;
+                    }
+                    &.advisor-title-right {
+                        margin: 28px 20px 0 0;
+                    }
+                }
+            }
+            &.title {
+                margin: 2rem 0;
+            }
+        }
+    }
+    .advisor-desc {
+        margin: 1.5rem 0 1.5rem 0;
+        line-height: 25px;
+        font-size: 11px !important;
+    }
+}
+
 /* footer */
 .footer {
     padding: 45px 0 45px 0;

@@ -331,5 +331,51 @@
                 "content" : "投资者内容平台上的活跃会员可以很容易获得Finchain并使用它来订阅我们的专业平台服务。Finchain分析平台可帮助用户更好地预测数字货币的走势和写更有质素的文章，而高质素的文章则可以赚取更多的Finchain和FINPOWER。庞大的社区基础也会帮助吸引更多的专业工具进入我们的应用商店，而更多的用户亦会因为免费（不用付出法币）而愿意订阅和购买更多的专业服务。此正面回圈将可加速我们建立整个加密货币生态的进程。"
             }
         ]
+    },
+    "advisor" : {
+        "title" : "Advisors",
+        "advisors" : [
+            {
+                "image" : "../images/hexagon.svg",
+                "name" : "David Chan",
+                "title" : "Head of Cyber Security in HSBC Group",
+                "description" : "<div>David Chan has over 15 years of experience and strong global industry background in Cyber Security, IT Risk Management and Technology Services. He is currently Head of Cyber Security for a international bank overseeing the IT security standards for the group. David has a solid experience on enforcing risk management policies to meet financial institution’s security standards. Prior to his recent position, he was a senior managing consultant in an international consulting firm managing large amount of system implementation tasks of Government, traditional banks and financial institutions. He was also the lead auditor and penetration test expert to perform ethical hacking on many critical systems used in the Government and banks.</div>",
+                "professional_certifications" : {
+                    "title" : "专业认证:",
+                    "items" : [
+                        "ISO 27001 Information Security Management System (ISMS) Lead Auditor",
+                        "ISO 20000 IT Service Management Systems Auditor",
+                        "ISO 31000 Certified Risk Professional",
+                        "Certified Information System Auditor",
+                        "Certified Information System Security Professional",
+                        "Certified Information Security Manager",
+                        "Cisco Certified Network Associate (Security)",
+                        "Project Management Professional",
+                        "CSA STAR certified advance auditor",
+                        "Certified Ethical Hacker"
+                    ]
+                }
+            },
+            {
+                "image" : "../images/advisors/Cwong.svg",
+                "name" : "Chesney Wong",
+                "title" : "Serial Entrepreneur, Technical Director with MBA",
+                "description" : "<div>Chesney Wong is a seasoned IT professional with rare balance of strong business acumen and extensive technical experience in the industry. Over the past 20 years, he has been a defining force in leading teams to develop cloud-based solutions and applying cutting edge technologies in new products and platform like Accela Inc., Yahoo, Shangri-la.com, TVB.com and HAVI.</div><div>Mr. Wong enjoys entrepreneurial journey and he engaged in a number of startup businesses. He was the co-founder and chief architect of “CROSSinteract”, a leading email marketing platform which was sold to PCCW. He is the CTO and co-founder of “ParkingWe” mobile app which is now being used by Baidu Map, Baidu CarLife and DianPing app and is supporting more than millions of user access per day.</div>",
+                "professional_certifications" : {
+                    "title" : "专业认证:",
+                    "items" : [
+                        "2018 Certified Scrum Product Owner (CSPO), Scrum Alliance",
+                        "2011 Certified Project Management Professional (PMP), Project Management Institute",
+                        "2011 Certified Practitioner of Prince2 Foundation, Technix Pro",
+                        "2010 Certified Practitioner of ITIL v3 Foundation, Sun Wah-PearL Linux Training and Development Centre",
+                        "2003 Certified CMM-3 Training-The-Trainer, ByteWatch Global Group",
+                        "2001 PATA 2001 Gold Awards for DiscoverHongKong.com, Pacific Asia Tourism Association (PATA)",
+                        "2000 Best Site Awards for Shangri-La.com in Travel/Leisure Category, Media.com",
+                        "1996 Award in ACM International Programming Contest (11th out of 1000+ teams), ACM",
+                        "1995 Third-place finish in ACM Far East Regional Programming Contest, ACM"
+                    ]
+                }
+            }
+        ]
     }
 }
