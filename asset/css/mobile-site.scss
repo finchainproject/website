@@ -362,26 +362,35 @@ ul {
 .founder {
     padding: 85px 0 85px 0;
     background-color: rgba(255,191,0,0.05);
-    .founderItem {
-        img {
-            display: inline;
-        }
-        div { 
-            display: inline; 
-            border-bottom: 2.5px solid $theme-yellow;
-            font-size: 15px;
-            font-family: 'Roboto';
-            position: relative;
-            top: -0.2em;
+    div.founder-name {
+        display: inline-block; 
+        div {
             &.leftSide {
-                padding: 14px 50px 14px 25px;
+                display: inline;
+                font-size: 25px;
+                padding: 14px 50px 14px 20px;
                 left: -0.1em;
+                border-bottom: 2.5px solid $theme-yellow;
+            }
+            &.founder-title-left {
+                margin: 28px 0 0 20px;
             }
             &.rightSide {
-                padding: 14px 25px 14px 50px;
+                display: inline;
+                font-size: 25px;
+                padding: 14px 20px 14px 50px;
                 right: -0.1em;
+                border-bottom: 2.5px solid $theme-yellow;
+            }
+            &.founder-title-right {
+                margin: 28px 20px 0 0;
             }
         }
+    }
+    .founder-desc {
+        margin: 1.5rem 0 1.5rem 0;
+        line-height: 25px;
+        font-size: 11px !important;
     }
 }
 

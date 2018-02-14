@@ -188,13 +188,13 @@ $().ready( () => {
 	
 	AOS.init();
 
-	$('div[id^="founderItem"]').bind('click', function() {
-		var founder = JSON.parse($(this).attr('founder'));
-		console.log(founder.name);
+	// $('div[id^="founderItem"]').bind('click', function() {
+	// 	var founder = JSON.parse($(this).attr('founder'));
+	// 	console.log(founder.name);
 		
-		$('#founderName').html(founder.name);
-		$('#founderDescription').html(founder.description);
-		$('#founderModal').modal();
-	});
+	// 	$('#founderName').html(founder.name);
+	// 	$('#founderDescription').html(founder.description);
+	// 	$('#founderModal').modal();
+	// });
 });
 
