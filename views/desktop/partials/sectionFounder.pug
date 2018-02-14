@@ -7,14 +7,14 @@ div(class='cover-container contentWrapper founder')
         each founder, index in founders
           div(class='row justify-content-center'): div(class='col-10 founderItem', class=(index % 2 == 0)?'text-left':'text-right', data-aos=(index % 2 == 0)?'fade-left':'fade-right', id='founderItem' + index, founder=founder)
             if index % 2 == 0
-              div
+              div(style='display: flex; align-content: center;')
                 img(src=founder.image)
                 div(class='founder-name')
                   div(class='leftSide')= founder.name
                   div(class='founder-title-left'): small= founder.title
               div(class='founder-desc')!= founder.description
             else
-              div
+              div(style='display: flex; align-content: center; justify-content: flex-end')
                 div(class='founder-name')
                   div(class='rightSide')= founder.name
                   div(class='founder-title-right'): small= founder.title

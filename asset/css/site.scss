@@ -400,6 +400,54 @@ ul {
     }
 }
 
+/* advisor */
+.advisor {
+    padding: 85px 0 85px 0;
+    background-color: rgba(255,191,0,0.05);
+    .advisorItem {
+        margin-bottom: 2rem;
+        img {
+            display: inline;
+        }
+        div {
+            font-family: 'Roboto';
+            position: relative;
+            top: 0.8em;
+            div.advisor-name { 
+                div {
+                    &.leftSide {
+                        display: inline;
+                        font-size: 30px;
+                        padding: 14px 0px 14px 25px;
+                        left: -0.1em;
+                        border-bottom: 5px solid $theme-yellow;
+                    }
+                    &.advisor-title-left {
+                        padding: 42px 0px 14px 25px;
+                    }
+                    &.rightSide {
+                        display: inline;
+                        font-size: 30px;
+                        padding: 14px 25px 14px 0px;
+                        right: -0.1em;
+                        border-bottom: 5px solid $theme-yellow;
+                    }
+                    &.advisor-title-right {
+                        padding: 42px 25px 14px 0px;
+                    }
+                }
+            }
+            &.advisor-desc {
+                line-height: 25px;
+                font-size: 14px !important;
+            }
+            &.title {
+                margin: 2rem 0;
+            }
+        }
+    }
+}
+
 /* footer */
 .footer {
     padding: 45px 0 45px 0;
