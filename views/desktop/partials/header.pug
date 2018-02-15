@@ -1,5 +1,6 @@
 //- partials/header.pug
 title= langText.title
+link(rel='icon', href='/images/favicon.ico', type='image/x-icon')
 link(rel='stylesheet', href='./bootstrap/css/bootstrap.css')
 link(rel='stylesheet', href='./font-awesome/css/font-awesome.min.css')
 link(rel='stylesheet', href='./css/site.css')
@@ -12,3 +13,6 @@ script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js'
 script(src='./js/site.js')
 meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
 meta(http-equiv='Cache-Control', content='no-cache, must-revalidate')
+meta(property='og:image', content='/images/meta-image.png')
+meta(property='og:title', content=langText.title)
+meta(property='og:description', content=langText.description)
