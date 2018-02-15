@@ -25,12 +25,14 @@ body {
     position: fixed; 
     top: 0;
     width: 100%;
+    visibility: hidden;
     opacity: 0;
     padding: 0.5rem 0;
     z-index: 1005;
 }
 
 .topNav.active {
+    visibility: visible;
     opacity: 1;
     .btn.btn-lang:not(.active) {
         color: $theme-yellow;
