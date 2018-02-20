@@ -1,11 +1,28 @@
-- var advisors = langText.advisor.advisors
+- var advisor = langText.advisor
 div(class='cover-container contentWrapper advisor')
     div(class='container'): div(class='row')
       div(class='col')
-        h1()= langText.advisor.title
+        h1()= advisor.title
+        hr(class='yellow')
+        h3(class='text-center')= advisor.technicalAdvisors.subTitle
         hr(class='yellow')
         div(class='row justify-content-start')
-            each advisor, index in advisors
+            each advisor, index in langText.advisor.technicalAdvisors.advisors
+                div(class='col-lg-6 col-md-12 col-12 advisorItem')
+                    div(style='display: flex; align-content: center;')
+                        img(src=advisor.image, class='')
+                        div(class='advisor-name')
+                            div(class='leftSide')= advisor.name
+                            div(class='advisor-title-left'): small= advisor.title
+                    div(class='advisor-desc')!= advisor.description
+                    div(class='title'): strong= advisor.professional_certifications.title
+                    ul
+                        each item in advisor.professional_certifications.items
+                            li: small= item
+        h3(class='text-center')= advisor.financialMarketsAdvisors.subTitle
+        hr(class='yellow')
+        div(class='row justify-content-start')
+            each advisor, index in langText.advisor.financialMarketsAdvisors.advisors
                 div(class='col-lg-6 col-md-12 col-12 advisorItem')
                     div(style='display: flex; align-content: center;')
                         img(src=advisor.image, class='')
