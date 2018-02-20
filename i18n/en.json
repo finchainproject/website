@@ -1,8 +1,8 @@
 {
-    "title" : "Finchain | Bloomberg for Cryptocurrency", 
+    "title" : "Finchain | Blockchain-based Bloomberg", 
     "description" : "Finchain is a non-profit blockchain project that utilize blockchain to change how participants exchange information and extract insights. Long term goal is incubating a decentralised financial ecosystem.",
     "topBanner" : {
-        "caption" : "Bloomberg for Cryptocurrency",
+        "caption" : "Blockchain-based Bloomberg",
         "subCaption" : "Decentralized Financial Ecosystem",
         "description" : [
             ""
@@ -18,11 +18,11 @@
         "items" : [
             {
                 "header" : "Professional User Generated Content Platform",
-                "content" : "Finchain is committed to build the world\"s largest community of cryptocurrency and blockchains and promise to share the success of the platform with every user, including content creators, curators and commentators. The journey of a thousand miles begins with one step, with utilizing our cryptocurrency (Finchain), proprietary blockchain technology and rewards scheme (Proof of Intelligence), we will able to motivate users to generate quality content and participate to build a health community spontaneously. According to their contribution level, they can get the corresponding Finchain and Finpower in return. The decision of the content value will be decentralized, and the value of the post will be shared by content creators and curators. Content creators will get most of the rewards. For the curators, they will get more rewards if they found a quality content and vote it earlier than others."
+                "content" : "Finchain is committed to build the world's largest community of cryptocurrency, blockchains, stock, FX, commodities and other investment products, and promise to share the success of the platform with every user, including content creators, curators and commentators. The journey of a thousand miles begins with one step, with utilizing our cryptocurrency (Finchain), proprietary blockchain technology and rewards scheme (Proof of Intelligence), we will able to motivate users to generate quality content and participate to build a health community spontaneously. According to their contribution level, they can get the corresponding Finchain and Finpower in return. The decision of the content value will be decentralized, and the value of the post will be shared by content creators and curators. Content creators will get most of the rewards. For the curators, they will get more rewards if they found a quality content and vote it earlier than others."
             },
             {
-                "header" : "Bloomberg for Cryptocurrency",
-                "content" : "Finchain is aimed to be the Bloomberg for Cryptocurrency, providing the most advanced and professional analysis platform. Cryptocurrency and blockchain database will be provided for users to query all the industry information and dynamic content. Advanced features such as trading suggestions and consulting services will be available. Initially, the platform will focus on text mining, sentiment analysis, news and data push from multiple source. Users will be able to view multi-sourced data, a variety of professional charts and independent analytics via mobile and web terminals. In the future, we will introduce more data feeds and machine learning models to provide users with more accurate information, analysis and insight. We will also develop a variety of extended applications, users can directly link third-party services, such as exchanges and asset management platform."
+                "header" : "Blockchain-based Bloomberg",
+                "content" : "Finchain is aimed to be the blockchasin based Bloomberg for cryptocurrency, stocks, FX, commodities and other investment products, providing the most advanced and professional analysis platform. Cryptocurrency, blockchain, stocks, FX, commodities and other investment products database will be provided for users to query all the industry information and dynamic content. Advanced features such as trading suggestions and consulting services will be available. Initially, the platform will focus on text mining, sentiment analysis, news and data push from multiple source. Users will be able to view multi-sourced data, a variety of professional charts and independent analytics via mobile and web terminals. In the future, we will introduce more data feeds and machine learning models to provide users with more accurate information, analysis and insight. We will also develop a variety of extended applications, users can directly link third-party services, such as exchanges and asset management platform."
             }
         ]
     },
@@ -30,7 +30,7 @@
         "title" : "关键功能",
         "section" : [
             {
-                "title" : "Building the world largest crypto market content platform",
+                "title" : "Building the world largest financial market content platform",
                 "descriptionBlock" : {
                     "caption" : "Blockchain based incentives mechanism:<div class='txt-thin-30'>Proof of Intelligence</div> <div class='txt-regular-20'>Inspiring and motivating content creation & curation among global</div>",
                     "contentItem" : [
@@ -99,7 +99,7 @@
                     {
                         "title" : "Detailed & Accurate Crypto-market Database",
                         "image" : "kp04-01.png",
-                        "description" : "Finchain big data analytics platform are building the world largest crypto-market database and target to become the world’s leading financial information service provider and the information hub for crypto-market.",
+                        "description" : "Finchain big data analytics platform are building the largest crypto-market & finance database and target to become the world’s leading financial information service provider and the information hub for investors.",
                         "subItems" : [
                             "Pre-scrape data massage",
                             "Saving time, all verified data can be found in 1 place",
@@ -274,7 +274,7 @@
     },
     "blockChain" : {
         "title" : "Blockchain based platform architecture",
-        "description" : "Finchain is a blockchain based project and will support all applications. A real all in one solution for crypto market investors, serving all application related to finance, social, marketplace, remittance, data, etc.",
+        "description" : "Finchain is a blockchain based project and will support all financial applications. A real all in one solution for crypto & financial market investors, serving all application related to finance, social, marketplace, remittance, data, etc.",
         "levels" : [
             {
                 "header" : "Finchain Application Layer",
@@ -334,48 +334,76 @@
     },
     "advisor" : {
         "title" : "Advisors",
-        "advisors" : [
-            {
-                "image" : "../images/hexagon.svg",
-                "name" : "David Chan",
-                "title" : "Head of Cyber Security in HSBC Group",
-                "description" : "<div>David Chan has over 15 years of experience and strong global industry background in Cyber Security, IT Risk Management and Technology Services. He is currently Head of Cyber Security for a international bank overseeing the IT security standards for the group. David has a solid experience on enforcing risk management policies to meet financial institution’s security standards. Prior to his recent position, he was a senior managing consultant in an international consulting firm managing large amount of system implementation tasks of Government, traditional banks and financial institutions. He was also the lead auditor and penetration test expert to perform ethical hacking on many critical systems used in the Government and banks.</div>",
-                "professional_certifications" : {
-                    "title" : "Professional Certifications:",
-                    "items" : [
-                        "ISO 27001 Information Security Management System (ISMS) Lead Auditor",
-                        "ISO 20000 IT Service Management Systems Auditor",
-                        "ISO 31000 Certified Risk Professional",
-                        "Certified Information System Auditor",
-                        "Certified Information System Security Professional",
-                        "Certified Information Security Manager",
-                        "Cisco Certified Network Associate (Security)",
-                        "Project Management Professional",
-                        "CSA STAR certified advance auditor",
-                        "Certified Ethical Hacker"
-                    ]
+        "technicalAdvisors" : {
+            "subTitle" : "Foundation Technical Advisors",
+            "advisors" : [
+                {
+                    "image" : "../images/hexagon.svg",
+                    "name" : "David Chan",
+                    "title" : "Head of Cyber Security in HSBC Group",
+                    "description" : "<div>David Chan has over 15 years of experience and strong global industry background in Cyber Security, IT Risk Management and Technology Services. He is currently Head of Cyber Security for a international bank overseeing the IT security standards for the group. David has a solid experience on enforcing risk management policies to meet financial institution’s security standards. Prior to his recent position, he was a senior managing consultant in an international consulting firm managing large amount of system implementation tasks of Government, traditional banks and financial institutions. He was also the lead auditor and penetration test expert to perform ethical hacking on many critical systems used in the Government and banks.</div>",
+                    "professional_certifications" : {
+                        "title" : "Professional Certifications:",
+                        "items" : [
+                            "ISO 27001 Information Security Management System (ISMS) Lead Auditor",
+                            "ISO 20000 IT Service Management Systems Auditor",
+                            "ISO 31000 Certified Risk Professional",
+                            "Certified Information System Auditor",
+                            "Certified Information System Security Professional",
+                            "Certified Information Security Manager",
+                            "Cisco Certified Network Associate (Security)",
+                            "Project Management Professional",
+                            "CSA STAR certified advance auditor",
+                            "Certified Ethical Hacker"
+                        ]
+                    }
+                },
+                {
+                    "image" : "../images/advisors/Cwong.svg",
+                    "name" : "Chesney Wong",
+                    "title" : "Serial Entrepreneur, Technical Director with MBA",
+                    "description" : "<div>Chesney Wong is a seasoned IT professional with rare balance of strong business acumen and extensive technical experience in the industry. Over the past 20 years, he has been a defining force in leading teams to develop cloud-based solutions and applying cutting edge technologies in new products and platform like Accela Inc., Yahoo, Shangri-la.com, TVB.com and HAVI.</div><div>Mr. Wong enjoys entrepreneurial journey and he engaged in a number of startup businesses. He was the co-founder and chief architect of “CROSSinteract”, a leading email marketing platform which was sold to PCCW. He is the CTO and co-founder of “ParkingWe” mobile app which is now being used by Baidu Map, Baidu CarLife and DianPing app and is supporting more than millions of user access per day.</div>",
+                    "professional_certifications" : {
+                        "title" : "Professional Certifications:",
+                        "items" : [
+                            "2018 Certified Scrum Product Owner (CSPO), Scrum Alliance",
+                            "2011 Certified Project Management Professional (PMP), Project Management Institute",
+                            "2011 Certified Practitioner of Prince2 Foundation, Technix Pro",
+                            "2010 Certified Practitioner of ITIL v3 Foundation, Sun Wah-PearL Linux Training and Development Centre",
+                            "2003 Certified CMM-3 Training-The-Trainer, ByteWatch Global Group",
+                            "2001 PATA 2001 Gold Awards for DiscoverHongKong.com, Pacific Asia Tourism Association (PATA)",
+                            "2000 Best Site Awards for Shangri-La.com in Travel/Leisure Category, Media.com",
+                            "1996 Award in ACM International Programming Contest (11th out of 1000+ teams), ACM",
+                            "1995 Third-place finish in ACM Far East Regional Programming Contest, ACM"
+                        ]
+                    }
                 }
-            },
-            {
-                "image" : "../images/advisors/Cwong.svg",
-                "name" : "Chesney Wong",
-                "title" : "Serial Entrepreneur, Technical Director with MBA",
-                "description" : "<div>Chesney Wong is a seasoned IT professional with rare balance of strong business acumen and extensive technical experience in the industry. Over the past 20 years, he has been a defining force in leading teams to develop cloud-based solutions and applying cutting edge technologies in new products and platform like Accela Inc., Yahoo, Shangri-la.com, TVB.com and HAVI.</div><div>Mr. Wong enjoys entrepreneurial journey and he engaged in a number of startup businesses. He was the co-founder and chief architect of “CROSSinteract”, a leading email marketing platform which was sold to PCCW. He is the CTO and co-founder of “ParkingWe” mobile app which is now being used by Baidu Map, Baidu CarLife and DianPing app and is supporting more than millions of user access per day.</div>",
-                "professional_certifications" : {
-                    "title" : "Professional Certifications:",
-                    "items" : [
-                        "2018 Certified Scrum Product Owner (CSPO), Scrum Alliance",
-                        "2011 Certified Project Management Professional (PMP), Project Management Institute",
-                        "2011 Certified Practitioner of Prince2 Foundation, Technix Pro",
-                        "2010 Certified Practitioner of ITIL v3 Foundation, Sun Wah-PearL Linux Training and Development Centre",
-                        "2003 Certified CMM-3 Training-The-Trainer, ByteWatch Global Group",
-                        "2001 PATA 2001 Gold Awards for DiscoverHongKong.com, Pacific Asia Tourism Association (PATA)",
-                        "2000 Best Site Awards for Shangri-La.com in Travel/Leisure Category, Media.com",
-                        "1996 Award in ACM International Programming Contest (11th out of 1000+ teams), ACM",
-                        "1995 Third-place finish in ACM Far East Regional Programming Contest, ACM"
-                    ]
+            ]
+        },
+        "financialMarketsAdvisors" : {
+            "subTitle" : "Foundation Financial Markets Advisors",
+            "advisors" : [
+                {
+                    "image" : "../images/advisors/Lkam.svg",
+                    "name" : "Leon Kam",
+                    "title" : "Co-heads of Asia FX emerging markets of GFI Group, experts on FX trading in Asia currency forwards.",
+                    "description" : "<div>Mr. Leon Kam studied in Bachelor Degree in Economics and Finance of The University of Hong Kong. He started his career in BNP Paribas. In 2008, he joined ICAP Group and rotates his role in different regional emerging markets, such as Taiwan, South Korea, China, Singapore and Hong Kong. Mainly introducing onshore counter-parties participating offshore markets to provide liquidities and arbitrage opportunity between different parties, as well as act as a proxy for central banks on market intervention in offshore markets. He returned to Hong Kong in 2012 joining GFI Group. Leading a team specialized on CNY non-deliverable forwards market provider, capturing as high as 40% of market shares in inter-bank trading volume, guiding and developing a proprietary trading platform for banks to match their currency position swapping.</div><div>Mr. Leon Kam learns how crypto’s importance on decentralizing from overbearing centralized authorities, which government policies on influencing their non-convertible currency markets will hide the real currency’s valuation. By learning off-shore currency markets in last 10 years are prevalent in some countries where global FX trading are limited, cryptocurrency would be the best option.</div>",
+                    "professional_certifications" : {
+                        "title" : "",
+                        "items" : []
+                    }
+                },
+                {
+                    "image" : "../images/advisors/Ttsang.svg",
+                    "name" : "Terry Tsang",
+                    "title" : "Director, Equity Markets and Commodities Sales",
+                    "description" : "<div>Terry is a seasoned investment professional with over 15 years of experience in investment banking and structured products.</div><div>He joined Commerzbank in 2012 and is responsible for structuring and marketing investment products and liability solutions across institutional clients in HK, Singapore and South East Asian Countries. He services all client segments including asset managers, family offices, banks, investment banks, insurance companies, private banks, brokers, sovereign wealth funds and pension funds.</div><div>Prior to joining Commerzbank, he held various senior sales positions at Royal Bank of Scotland, including distribution of structured products across all asset classes in Asia, as well as marketing and public distribution of listed warrants and certificates in Hong Kong. Terry has commenced his banking career as a Management Trainee at Hang Seng Bank.</div><div>Terry has won numerous investment banking industry awards including \"Deal of the Year\" in Asia and he is an effective and regular speaker at industry conferences / seminars.</div><div>He graduated from Hong Kong University of Science and Technology with a first class honours bachelor degree in Accounting, Business Administration and is a qualified CFA charterholder</div>",
+                    "professional_certifications" : {
+                        "title" : "",
+                        "items" : []
+                    }
                 }
-            }
-        ]
+            ]
+        }
     }
 }
