@@ -2,7 +2,7 @@
     "title" : "Finchain | Bloomberg for Cryptocurrency", 
     "description" : "Finchain is a non-profit blockchain project that utilize blockchain to change how participants exchange information and extract insights. Long term goal is incubating a decentralised financial ecosystem.",
     "topBanner" : {
-        "caption" : "Bloomberg for Cryptocurrency",
+        "caption" : "Blockchain-based Bloomberg",
         "subCaption" : "Decentralized Financial Ecosystem",
         "description" : [
             ""
@@ -18,11 +18,11 @@
         "items" : [
             {
                 "header" : "Professional User Generated Content Platform",
-                "content" : "Finchain is committed to build the world\"s largest community of cryptocurrency and blockchains and promise to share the success of the platform with every user, including content creators, curators and commentators. The journey of a thousand miles begins with one step, with utilizing our cryptocurrency (Finchain), proprietary blockchain technology and rewards scheme (Proof of Intelligence), we will able to motivate users to generate quality content and participate to build a health community spontaneously. According to their contribution level, they can get the corresponding Finchain and Finpower in return. The decision of the content value will be decentralized, and the value of the post will be shared by content creators and curators. Content creators will get most of the rewards. For the curators, they will get more rewards if they found a quality content and vote it earlier than others."
+                "content" : "Finchain is committed to build the world's largest community of cryptocurrency, blockchains, stock, FX, commodities and other investment products, and promise to share the success of the platform with every user, including content creators, curators and commentators. The journey of a thousand miles begins with one step, with utilizing our cryptocurrency (Finchain), proprietary blockchain technology and rewards scheme (Proof of Intelligence), we will able to motivate users to generate quality content and participate to build a health community spontaneously. According to their contribution level, they can get the corresponding Finchain and Finpower in return. The decision of the content value will be decentralized, and the value of the post will be shared by content creators and curators. Content creators will get most of the rewards. For the curators, they will get more rewards if they found a quality content and vote it earlier than others."
             },
             {
-                "header" : "Bloomberg for Cryptocurrency",
-                "content" : "Finchain is aimed to be the Bloomberg for Cryptocurrency, providing the most advanced and professional analysis platform. Cryptocurrency and blockchain database will be provided for users to query all the industry information and dynamic content. Advanced features such as trading suggestions and consulting services will be available. Initially, the platform will focus on text mining, sentiment analysis, news and data push from multiple source. Users will be able to view multi-sourced data, a variety of professional charts and independent analytics via mobile and web terminals. In the future, we will introduce more data feeds and machine learning models to provide users with more accurate information, analysis and insight. We will also develop a variety of extended applications, users can directly link third-party services, such as exchanges and asset management platform."
+                "header" : "Blockchain-based Bloomberg",
+                "content" : "Finchain is aimed to be the blockchasin based Bloomberg for cryptocurrency, stocks, FX, commodities and other investment products, providing the most advanced and professional analysis platform. Cryptocurrency, blockchain, stocks, FX, commodities and other investment products database will be provided for users to query all the industry information and dynamic content. Advanced features such as trading suggestions and consulting services will be available. Initially, the platform will focus on text mining, sentiment analysis, news and data push from multiple source. Users will be able to view multi-sourced data, a variety of professional charts and independent analytics via mobile and web terminals. In the future, we will introduce more data feeds and machine learning models to provide users with more accurate information, analysis and insight. We will also develop a variety of extended applications, users can directly link third-party services, such as exchanges and asset management platform."
             }
         ]
     },
@@ -30,7 +30,7 @@
         "title" : "关键功能",
         "section" : [
             {
-                "title" : "Building the world largest crypto market content platform",
+                "title" : "Building the world largest financial market content platform",
                 "descriptionBlock" : {
                     "caption" : "Blockchain based incentives mechanism:<div class='txt-thin-30'>Proof of Intelligence</div> <div class='txt-regular-20'>Inspiring and motivating content creation & curation among global</div>",
                     "contentItem" : [
@@ -99,7 +99,7 @@
                     {
                         "title" : "Detailed & Accurate Crypto-market Database",
                         "image" : "kp04-01.png",
-                        "description" : "Finchain big data analytics platform are building the world largest crypto-market database and target to become the world’s leading financial information service provider and the information hub for crypto-market.",
+                        "description" : "Finchain big data analytics platform are building the largest crypto-market & finance database and target to become the world’s leading financial information service provider and the information hub for investors.",
                         "subItems" : [
                             "Pre-scrape data massage",
                             "Saving time, all verified data can be found in 1 place",
@@ -274,7 +274,7 @@
     },
     "blockChain" : {
         "title" : "Blockchain based platform architecture",
-        "description" : "Finchain is a blockchain based project and will support all applications. A real all in one solution for crypto market investors, serving all application related to finance, social, marketplace, remittance, data, etc.",
+        "description" : "Finchain is a blockchain based project and will support all financial applications. A real all in one solution for crypto & financial market investors, serving all application related to finance, social, marketplace, remittance, data, etc.",
         "levels" : [
             {
                 "header" : "Finchain Application Layer",
@@ -374,6 +374,26 @@
                         "1996 Award in ACM International Programming Contest (11th out of 1000+ teams), ACM",
                         "1995 Third-place finish in ACM Far East Regional Programming Contest, ACM"
                     ]
+                }
+            },
+            {
+                "image" : "../images/hexagon.svg",
+                "name" : "Leon Kam",
+                "title" : "Co-heads of Asia FX emerging markets of GFI Group, experts on FX trading in Asia currency forwards.",
+                "description" : "<div>Mr. Leon Kam studied in Bachelor Degree in Economics and Finance of The University of Hong Kong. He started his career in BNP Paribas. In 2008, he joined ICAP Group and rotates his role in different regional emerging markets, such as Taiwan, South Korea, China, Singapore and Hong Kong. Mainly introducing onshore counter-parties participating offshore markets to provide liquidities and arbitrage opportunity between different parties, as well as act as a proxy for central banks on market intervention in offshore markets. He returned to Hong Kong in 2012 joining GFI Group. Leading a team specialized on CNY non-deliverable forwards market provider, capturing as high as 40% of market shares in inter-bank trading volume, guiding and developing a proprietary trading platform for banks to match their currency position swapping.</div><div>Mr. Leon Kam learns how crypto’s importance on decentralizing from overbearing centralized authorities, which government policies on influencing their non-convertible currency markets will hide the real currency’s valuation. By learning off-shore currency markets in last 10 years are prevalent in some countries where global FX trading are limited, cryptocurrency would be the best option.</div>",
+                "professional_certifications" : {
+                    "title" : "",
+                    "items" : []
+                }
+            },
+            {
+                "image" : "../images/hexagon.svg",
+                "name" : "Terry Tsang",
+                "title" : "",
+                "description" : "",
+                "professional_certifications" : {
+                    "title" : "",
+                    "items" : []
                 }
             }
         ]

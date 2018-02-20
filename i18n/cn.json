@@ -2,7 +2,7 @@
     "title" : "Finchain | 数字货币市场上的彭博", 
     "description" : "Finchain是一个非营利和自治的区块链项目，利用基于区块链建立的激励机制为切入点，来改变加密市场参与者交换信息的方式以及提升大众从海量非结构化信息提取有用资讯的能力。Finchain长期战略目标是建立数字货币市场上的彭博和去中心化的金融生态。", 
     "topBanner" : {
-        "caption" : "数字货币市场上的彭博",
+        "caption" : "区块链驱动的彭博社",
         "subCaption" : "去中心化的金融生态",
         "description" : [
             ""
@@ -18,11 +18,11 @@
         "items" : [
             {
                 "header" : "专业用户生成内容社区",
-                "content" : "Finchain会致力建立并期望成为全球最大的数字货币和区块链社群聚集地。我们会与每一个用户，包括内容创造者、投票和留言者分享平台的成功。千里之行始于足下我们会利用发行的数字货币及独有的区块链技术和奖励机制(proof of intelligence)去激励用户生成有质素的内容、自发参与社群讨论和和投票。根据贡献度的多寡，他们能得到相应的Finchain或Finpower作为回报。例如每个贴文都会去中心化地找出内容价值，内容创作者将会获得大部份内容价值的分成，而内容策展者则越早发现优质内容和点好评，会相对获得更多的奖励。"
+                "content" : "Finchain会致力建立并期望成为全球最大的数字货币，区块链，股票，外汇，商品和投资产品的新闻资讯和社群聚集地。我们会与每一个用户，包括内容创造者、投票和留言者分享平台的成功。千里之行始于足下我们会利用发行的数字货币及独有的区块链技术和奖励机制(proof of intelligence)去激励用户生成有质素的内容、自发参与社群讨论和和投票。根据贡献度的多寡，他们能得到相应的Finchain或Finpower作为回报。例如每个贴文都会去中心化地找出内容价值，内容创作者将会获得大部份内容价值的分成，而内容策展者则越早发现优质内容和点好评，会相对获得更多的奖励。"
             },
             {
-                "header" : "数字货币市场上的彭博",
-                "content" : "Finchain 的目标是成为数字货币市场上的彭博，提供最专业的分析。分析平台会建构数字货币和区块链的数据库为用户提供数字货币信息和业内动态内容，并通过客观数据反馈提供交易建议和顾问服务，初期会专注于中英文情感分析、文本意见挖掘、多源数据信息推送。用户将可通过手机和网络终端查看多源数据、各种专业图表和独立分析。未来会引入更多的数据信息流和机械学习模型为用户带来更精准的洞察、分析和信息上的优势。我们也将开发多种扩展应用程序，用户可直接链接第三方服务，如交易所和资产管理平台。"
+                "header" : "区块链驱动的彭博社",
+                "content" : "Finchain 的目标是建设区块链上的彭博社，提供最专业的分析。分析平台会建构数字货币，区块链，股票，外汇，商品和投资产品的数据库为用户提供数字货币、投资市场上​​的信息和业内动态内容，并通过客观数据反馈提供交易建议和顾问服务，初期会专注于中英文情感分析、文本意见挖掘、多源数据信息推送。用户将可通过手机和网络终端查看多源数据、各种专业图表和独立分析。未来会引入更多的数据信息流和机械学习模型为用户带来更精准的洞察、分析和信息上的优势。我们也将开发多种扩展应用程序，用户可直接链接第三方服务，如交易所和资产管理平台。"
             }
         ]
     },
@@ -30,7 +30,7 @@
         "title" : "关键功能",
         "section" : [
             {
-                "title" : "建立最大的数字货币内容平台",
+                "title" : "建立最大的投资和金融内容平台",
                 "descriptionBlock" : {
                     "caption" : "独有的区块链技术和奖励机制:<div class='txt-thin-30'>Proof of Intelligence</div> <div class='txt-regular-20'>激励全球范围的用户去协作</div>",
                     "contentItem" : [
@@ -99,7 +99,7 @@
                     {
                         "title" : "详尽精确的数据库",
                         "image" : "kp04-01.png",
-                        "description" : "Finchain 数据分析平台会建构数字货币和区块链的数据库，目标成为全球领先的数字货币和区块链市场的金融信息服务供货商和数字货币的信息枢纽。",
+                        "description" : "Finchain 数据分析平台会建构数字货币和区块链的数据库，目标成为全球领先的数字货币，区块链，股票，外汇，商品和投资产品的金融信息服务供货商和信息枢纽。",
                         "subItems" : [
                             "解决数据信息的正确性和噪音问题",
                             "节省时间，所有的信息都可以在平台找到",
@@ -275,7 +275,7 @@
     },
     "blockChain" : {
         "title" : "区块链系统架构",
-        "description" : "Finchain是一个基于区块链的项目，数字货币投资者真正的全方位解决方案，将支持所有的应用程序，例如金融，社交，市场，汇款，数据等等的商业应用。",
+        "description" : "Finchain是一个基于区块链的金融项目，投资者真正的全方位解决方案，将支持所有的应用程序，例如金融，社交，市场，汇款，数据等等的商业应用。",
         "levels" : [
             {
                 "header" : "Finchain应用层",
@@ -312,7 +312,7 @@
                 "image" : "../images/founders/Edward.svg",
                 "name" : "Edward Chow",
                 "title" : "Founder & CTO of PressLogic, expert in cyber security and crytography. HKU",
-                "description" : "<div>Mr. Edward Chow was graduated from The University of Hong Kong. He has vast experiences in Security and Cryptography. He has been focusing at software development and security consultancy for traditional banks and financial institutions. He co-founded the successful internet business “Presslogic” and assembled a team of over 20 developers to create a proprietary AI system for managing media network. He discovered the world of cryptocurrency during his study in the area of cryptosystem and payment protocols in 2012. He has been absorbing as much knowledge as possible about blockchains and decentralized systems ever since. He leads the development at Finchain and implemented smart contracts behind the Finchain platform.</div>"
+                "description" : "<div>Edward毕业于香港大学。他在资安领域及密码学有丰富的工作经验。他一直以来专注于为金融机构提供系统开发和资讯保安顾问。他曾参与很多的系统实施, 客户主要是政府机构和银行机构。后来他创立了自己的互联网公司Presslogic并取得漂亮的成续。他在Presslogic组成了一队超过二十人的开发团队, 并建立了自家的媒体管理的人工智能系统。在2012年的时候, 他在准备考专业试时研究了网上支付协议和加密系统, 在机绿巧合下第一次接触了区块链技术。从此他就开始着手研究区块链技术和分布式系统。</div>"
             }
         ]
     },
@@ -340,7 +340,7 @@
                 "image" : "../images/hexagon.svg",
                 "name" : "David Chan",
                 "title" : "Head of Cyber Security in HSBC Group",
-                "description" : "<div>David Chan has over 15 years of experience and strong global industry background in Cyber Security, IT Risk Management and Technology Services. He is currently Head of Cyber Security for a international bank overseeing the IT security standards for the group. David has a solid experience on enforcing risk management policies to meet financial institution’s security standards. Prior to his recent position, he was a senior managing consultant in an international consulting firm managing large amount of system implementation tasks of Government, traditional banks and financial institutions. He was also the lead auditor and penetration test expert to perform ethical hacking on many critical systems used in the Government and banks.</div>",
+                "description" : "<div>David在资安领域, 资讯科技风险管理和相关技术服务上拥有超过15年经验。他现为一家知名银行的资讯保安主管。主要职务为监视整个集团的资讯保安水平。 David在制定和实施风险管理政策拥有丰富经验, 而且所制的政策必需符合金融机构资安水平。他以前是一家国际顾问公司的首席资安顾问, 客户主要是政府机构, 金融机构及银行。检视无数的系统设计确保安全性和可用性。他也是首席审计员和渗透测试专家。很多金融机构的关键系统也是由他来做黑客测试。</div>",
                 "professional_certifications" : {
                     "title" : "专业认证:",
                     "items" : [
@@ -361,7 +361,7 @@
                 "image" : "../images/advisors/Cwong.svg",
                 "name" : "Chesney Wong",
                 "title" : "Serial Entrepreneur, Technical Director with MBA",
-                "description" : "<div>Chesney Wong is a seasoned IT professional with rare balance of strong business acumen and extensive technical experience in the industry. Over the past 20 years, he has been a defining force in leading teams to develop cloud-based solutions and applying cutting edge technologies in new products and platform like Accela Inc., Yahoo, Shangri-la.com, TVB.com and HAVI.</div><div>Mr. Wong enjoys entrepreneurial journey and he engaged in a number of startup businesses. He was the co-founder and chief architect of “CROSSinteract”, a leading email marketing platform which was sold to PCCW. He is the CTO and co-founder of “ParkingWe” mobile app which is now being used by Baidu Map, Baidu CarLife and DianPing app and is supporting more than millions of user access per day.</div>",
+                "description" : "<div>Chensney是少数同时具备商业思维和技术经验的IT专业人员。在过去的20年, 他带领开发团队开发云端方案和创新科技应用。成功例子有Accela Inc., Yahoo, Shangri-la.com, TVB.com and HAVI</div><div>Mr.Wong 协助无数的初创公司。他自己也曾经创立了一家电邮推广平台\"CROSSinteract\", 平台最后被PCCW收购。他现在是手机程式“ParkingWe”的CTO和联合创办人。这个手机程式现在被Baidu Map, Baidu CarLife 和DianPing app使用。每天用户量达到数百万人次。</div>",
                 "professional_certifications" : {
                     "title" : "专业认证:",
                     "items" : [
@@ -375,6 +375,26 @@
                         "1996 Award in ACM International Programming Contest (11th out of 1000+ teams), ACM",
                         "1995 Third-place finish in ACM Far East Regional Programming Contest, ACM"
                     ]
+                }
+            },
+            {
+                "image" : "../images/hexagon.svg",
+                "name" : "Leon Kam",
+                "title" : "Co-heads of Asia FX emerging markets of GFI Group, experts on FX trading in Asia currency forwards.",
+                "description" : "<div>Mr. Leon Kam studied in Bachelor Degree in Economics and Finance of The University of Hong Kong. He started his career in BNP Paribas. In 2008, he joined ICAP Group and rotates his role in different regional emerging markets, such as Taiwan, South Korea, China, Singapore and Hong Kong. Mainly introducing onshore counter-parties participating offshore markets to provide liquidities and arbitrage opportunity between different parties, as well as act as a proxy for central banks on market intervention in offshore markets. He returned to Hong Kong in 2012 joining GFI Group. Leading a team specialized on CNY non-deliverable forwards market provider, capturing as high as 40% of market shares in inter-bank trading volume, guiding and developing a proprietary trading platform for banks to match their currency position swapping.</div><div>Mr. Leon Kam learns how crypto’s importance on decentralizing from overbearing centralized authorities, which government policies on influencing their non-convertible currency markets will hide the real currency’s valuation. By learning off-shore currency markets in last 10 years are prevalent in some countries where global FX trading are limited, cryptocurrency would be the best option.</div>",
+                "professional_certifications" : {
+                    "title" : "",
+                    "items" : []
+                }
+            },
+            {
+                "image" : "../images/hexagon.svg",
+                "name" : "Terry Tsang",
+                "title" : "",
+                "description" : "",
+                "professional_certifications" : {
+                    "title" : "",
+                    "items" : []
                 }
             }
         ]
