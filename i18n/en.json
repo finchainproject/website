@@ -343,7 +343,7 @@
             "subTitle" : "Foundation Technical Advisors",
             "advisors" : [
                 {
-                    "image" : "../images/hexagon.svg",
+                    "image" : "../images/advisors/Dchan.svg",
                     "name" : "David Chan",
                     "title" : "Head of Cyber Security in HSBC Group",
                     "description" : "<div>David Chan has over 15 years of experience and strong global industry background in Cyber Security, IT Risk Management and Technology Services. He is currently Head of Cyber Security for a international bank overseeing the IT security standards for the group. David has a solid experience on enforcing risk management policies to meet financial institution’s security standards. Prior to his recent position, he was a senior managing consultant in an international consulting firm managing large amount of system implementation tasks of Government, traditional banks and financial institutions. He was also the lead auditor and penetration test expert to perform ethical hacking on many critical systems used in the Government and banks.</div>",
