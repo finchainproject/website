@@ -11,7 +11,7 @@ app.set('view engine', 'pug')
 app.use(cookieParser())
 
 app.use('/:lang', (req, res, next) => {
-  if(req.params.lang == 'cn' || req.params.lang == 'en') {
+  if(req.params.lang == 'cn' || req.params.lang == 'en' || req.params.lang == 'zh') {
     req.cookies.ulang = req.params.lang
     next()
   }else{
@@ -21,7 +21,7 @@ app.use('/:lang', (req, res, next) => {
 
 app.use(i18n({
   translationsPath: path.join(__dirname, 'i18n'), 
-  siteLangs: ["cn","en"],
+  siteLangs: ["cn","en", "zh"],
   textsVarName: 'langText',
   defaultLang: 'cn'
 }));
@@ -45,6 +45,15 @@ app.get('/en', (req, res) => {
     res.render('desktop/index', { currentLang: 'en' })
   }else{
     res.render('mobile/index', { currentLang: 'en' })
+  }
+})
+
+app.get('/zh', (req, res) => {
+  let md = new MobileDetect(req.headers['user-agent'])  
+  if( !md.mobile()  ){
+    res.render('desktop/index', { currentLang: 'zh' })
+  }else{
+    res.render('mobile/index', { currentLang: 'zh' })
   }
 })
 
