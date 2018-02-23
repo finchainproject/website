@@ -118,6 +118,7 @@ ul {
     .subCaption { font-size: 48px; font-family: $font-family-thin; }
     .social {
         margin-top: 15px;
+        a { color: $primary-txt-color }
         i { margin-right: 1rem; }
     }
     .btnDownload-wrapper {  
@@ -463,6 +464,7 @@ ul {
     background-color: #4A4A4A;
     .social {
         margin: 15px 0 15px 0;
+        a { color: #FFFFFF}
         i { margin-right: 1rem; }
     }
     div {
