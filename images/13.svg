@@ -20,8 +20,8 @@
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                         <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                     </g>
-                    <path d="M21,14 L41,14 L41,16 L21,16 L21,14 Z M16.5,19.5 L16.5,39.5 L14.5,39.5 L14.5,19.5 L16.5,19.5 Z" id="Combined-Shape" fill="#FFBF00"></path>
-                    <path d="M216.5,314.5 L236.5,314.5 L236.5,316.5 L216.5,316.5 L216.5,314.5 Z M212,320 L212,340 L210,340 L210,320 L212,320 Z" id="Combined-Shape" fill="#FFBF00" transform="translate(223.250000, 327.250000) scale(-1, -1) translate(-223.250000, -327.250000) "></path>
+                    <path d="M21,14 L41,14 L41,16 L21,16 L21,14 Z M16.5,19.5 L16.5,39.5 L14.5,39.5 L14.5,19.5 L16.5,19.5 Z" id="Combined-Shape" fill="#61A6F3"></path>
+                    <path d="M216.5,314.5 L236.5,314.5 L236.5,316.5 L216.5,316.5 L216.5,314.5 Z M212,320 L212,340 L210,340 L210,320 L212,320 Z" id="Combined-Shape" fill="#61A6F3" transform="translate(223.250000, 327.250000) scale(-1, -1) translate(-223.250000, -327.250000) "></path>
                 </g>
             </g>
         </g>
