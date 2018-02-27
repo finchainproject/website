@@ -272,12 +272,16 @@ ul {
 /* roadMap */
 .roadMap {
     &.roadMapItemBackground {
-        background-color: #FFBF00;
+        background-color: rgba(97, 166, 243, 1);
         background-repeat: no-repeat;
-        background-image: url(../images/14.svg);
-        background-position: left bottom;
+        background-image: url(../images/background/BG5.svg);
+        background-size: cover;
+        background-position: center bottom;
     }
     .roadMapContent {
+        background-repeat: no-repeat;
+        background-image: url(../images/14.svg);
+        background-position: center bottom;
         padding: 85px 0 0 0;
         .roadMapItem {
             .txtDateRange {
