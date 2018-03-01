@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="262px" height="17px" viewBox="0 0 262 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 80</title>
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-80" transform="translate(2.000000, 2.000000)">
-            <rect id="Rectangle-7-Copy-17" fill="#FFFFFF" x="0" y="5" width="260" height="3"></rect>
-            <circle id="Oval-2-Copy-16" stroke="#FFFFFF" stroke-width="3" fill="#61A6F3" cx="6.5" cy="6.5" r="6.5"></circle>
+        <g id="FINCHAIN_VER1.0_20180208-Copy" transform="translate(-1011.000000, -9041.000000)">
+            <g id="Group-68" transform="translate(0.000000, 8451.000000)">
+                <g id="Group-13" transform="translate(1013.000000, 592.000000)">
+                    <rect id="Rectangle-7-Copy-17" fill="#FFFFFF" x="0" y="5" width="260" height="3"></rect>
+                    <circle id="Oval-2-Copy-16" stroke="#FFFFFF" stroke-width="3" fill="#0769D5" cx="6.5" cy="6.5" r="6.5"></circle>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

@@ -5,19 +5,30 @@
 div(class='cover-container w-100 solution1')
   div(class='container')
     div(class='row'): div(class='col')
-      h1= solution1.title
+      h1(class='white')= solution1.title
       hr(class='white')
       each item, index in solution1.items
         if index % 2 == 0 
-          div(class='row  align-items-center section')
-            div(class='col-12', data-aos='fade-up')
-              img(src!='../images/' + item.image, class='w-100')
-            div(class='col-12', data-aos='fade-up')
-              h2!= item.title
-              div(class='description')!= item.description
-              ul
-                each pointItem in item.subItems
-                  li= pointItem
+          if index == 0 
+            div(class='row white align-items-center section')
+              div(class='col-12', data-aos='fade-up')
+                img(src!='../images/' + item.image, class='w-100')
+              div(class='col-12', data-aos='fade-up')
+                h2(class='white')!= item.title
+                div(class='description')!= item.description
+                ul
+                  each pointItem in item.subItems
+                    li= pointItem
+          else
+            div(class='row  align-items-center section')
+              div(class='col-12', data-aos='fade-up')
+                img(src!='../images/' + item.image, class='w-100')
+              div(class='col-12', data-aos='fade-up')
+                h2!= item.title
+                div(class='description')!= item.description
+                ul
+                  each pointItem in item.subItems
+                    li= pointItem
         else
           div(class='row  align-items-center section')
             div(class='col-12', data-aos='fade-up')
@@ -42,7 +53,10 @@ div(class='cover-container w-100 solution2')
       h1= solution2.title
       hr(class='yellow')
       div(class='row justify-content-center'): div(class='col-10'): div(class='text-center')
-        img(src='../images/4.svg', class='w-100', data-aos='fade-up')
+        if currentLang == 'cn'
+          img(src='../images/4.svg', class='w-100', data-aos='fade-up')
+        else
+          img(src='../images/4_en.svg', class='w-100', data-aos='fade-up')
       - var solution2Items = solution2.items
       div(class='row')
         div(class='col-12', data-aos='fade-up')

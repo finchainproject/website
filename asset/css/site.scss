@@ -7,7 +7,7 @@ $font-family-regular: 'PingFangTC-Regular', 'Noto Sans SC', sans-serif;
 $font-family-header: 'PingFangTC-Semibold', 'Noto Sans SC', sans-serif;
 $font-family-thin: 'PingFangTC-Thin', 'Noto Sans SC', sans-serif;
 
-$theme-yellow : rgba(97, 166, 243, 1);
+$theme-yellow : rgba(7, 105, 203, 1);
 
 body {
     color: $primary-txt-color;
@@ -72,6 +72,10 @@ ul {
     }
 }
 
+.white {
+    color: #FFFFFF;
+}
+
 .btn.btn-lang {
     background: transparent;
     color: #4A4A4A;
@@ -89,7 +93,7 @@ ul {
 /* site-header */
 
 .site-header {
-    color: $primary-txt-color;
+    color: #FFFFFF;
     padding-top: 2rem;
     background-image: url(../images/background/BG1.svg);
     background-position: bottom center;
@@ -118,7 +122,7 @@ ul {
     .subCaption { font-size: 48px; font-family: $font-family-thin; }
     .social {
         margin-top: 15px;
-        a { color: $primary-txt-color }
+        a { color: #FFFFFF; }
         i { margin-right: 1rem; }
     }
     .btnDownload-wrapper {  
