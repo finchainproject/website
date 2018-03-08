@@ -5,19 +5,30 @@
 div(class='cover-container w-100 solution1')
   div(class='container')
     div(class='row'): div(class='col')
-      h1= solution1.title
+      h1(class='white')= solution1.title
       hr(class='white')
       each item, index in solution1.items
         if index % 2 == 0 
-          div(class='row  align-items-center section')
-            div(class='col-md-7', data-aos='fade-right')
-              h2!= item.title
-              div(class='description')!= item.description
-              ul
-                each pointItem in item.subItems
-                  li= pointItem
-            div(class='col-md-5')
-              img(src!='../images/' + item.image, class=(item.imageClass?item.imageClass:''), data-aos='fade-left')
+          if index == 0 
+            div(class='row white align-items-center section')
+              div(class='col-md-7', data-aos='fade-right')
+                h2(class='white')!= item.title
+                div(class='description')!= item.description
+                ul
+                  each pointItem in item.subItems
+                    li= pointItem
+              div(class='col-md-5')
+                img(src!='../images/' + item.image, class=(item.imageClass?item.imageClass:''), data-aos='fade-left')
+          else
+            div(class='row  align-items-center section')
+              div(class='col-md-7', data-aos='fade-right')
+                h2!= item.title
+                div(class='description')!= item.description
+                ul
+                  each pointItem in item.subItems
+                    li= pointItem
+              div(class='col-md-5')
+                img(src!='../images/' + item.image, class=(item.imageClass?item.imageClass:''), data-aos='fade-left')
         else
           div(class='row  align-items-center section')
             div(class='col-md-5 col-lg-5')
@@ -45,7 +56,7 @@ div(class='cover-container w-100 solution2')
         if currentLang == 'cn'
           img(src='../images/4.svg', class='w-100', data-aos='fade-up')
         else
-          img(src='../images/4_en.png', class='w-100', data-aos='fade-up')
+          img(src='../images/4_en.svg', class='w-100', data-aos='fade-up')
       - var solution2Items = solution2.items
       div(class='row')
         div(class='col')
