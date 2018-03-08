@@ -7,7 +7,7 @@ $font-family-regular: 'PingFangTC-Regular', 'Noto Sans SC', sans-serif;
 $font-family-header: 'PingFangTC-Semibold', 'Noto Sans SC', sans-serif;
 $font-family-thin: 'PingFangTC-Thin', 'Noto Sans SC', sans-serif;
 
-$theme-yellow : rgba(255, 191, 1, 1);
+$theme-yellow : rgba(7, 105, 203, 1);
 
 body {
     color: $primary-txt-color;
@@ -72,6 +72,10 @@ ul {
     }
 }
 
+.white {
+    color: #FFFFFF;
+}
+
 .btn.btn-lang {
     background: transparent;
     color: #4A4A4A;
@@ -85,7 +89,7 @@ ul {
 /* site-header */
 
 .site-header {
-    color: $primary-txt-color;
+    color: #FFFFFF;
     padding-top: 2rem;
     background-image: url(../images/background/BG1.svg);
     background-position: bottom center;
@@ -114,7 +118,7 @@ ul {
     .subCaption { font-size: 21px; font-family: $font-family-thin; }
     .social {
         margin-top: 15px;
-        a { color: $primary-txt-color }
+        a { color: #FFFFFF; }
         i { margin-right: 1rem; }
     }
     .btnDownload-wrapper {  
@@ -245,9 +249,10 @@ ul {
 
 /* Block Chain */
 .blockChain {
+    h3 { color: #FFFFFF; }
     .section1 {
         padding: 85px 0 85px 0;
-        background-color:  rgba(255, 255, 242, 1);
+        background-color:  #F3F8FE;
         .description { margin: 0 0 60px 0; }
         .card {
             margin: 5px 0 5px 0;
@@ -267,15 +272,19 @@ ul {
 /* roadMap */
 .roadMap {
     &.roadMapItemBackground {
-        background-color: #FFBF00;
+        background-color: rgba(97, 166, 243, 1);
         background-repeat: no-repeat;
-        background-image: url(../images/14.svg);
-        background-position: left bottom;
+        background-image: url(../images/background/BG5.svg);
+        background-size: cover;
+        background-position: center bottom;
     }
     .roadMapScroll {
         overflow-y: auto;
     }
     .roadMapContent {
+        background-repeat: no-repeat;
+        background-image: url(../images/14.svg);
+        background-position: center bottom;
         padding: 85px 0 0 0;
         .roadMapItem {
             display: inline-block !important;
@@ -364,7 +373,7 @@ ul {
 /* founder */
 .founder {
     padding: 85px 0 85px 0;
-    background-color: rgba(255,191,0,0.05);
+    background-color: #F3F8FE;
     div.founder-name {
         display: inline-block; 
         div {
@@ -400,7 +409,7 @@ ul {
 /* advisor */
 .advisor {
     padding: 20px 0 20px 0;
-    background-color: rgba(255,191,0,0.05);
+    background-color: #F3F8FE;
     .advisorItem {
         margin-bottom: 1rem;
         img {
