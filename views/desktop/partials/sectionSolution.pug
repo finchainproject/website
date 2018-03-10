@@ -20,7 +20,7 @@ div(class='cover-container w-100 solution1')
               div(class='col-md-5')
                 img(src!='../images/' + item.image, class=(item.imageClass?item.imageClass:''), data-aos='fade-left')
           else
-            div(class='row  align-items-center section')
+            div(class='row align-items-center section')
               div(class='col-md-7', data-aos='fade-right')
                 h2!= item.title
                 div(class='description')!= item.description
@@ -32,7 +32,7 @@ div(class='cover-container w-100 solution1')
         else
           div(class='row  align-items-center section')
             div(class='col-md-5 col-lg-5')
-              img(src!='../images/' + item.image, class='leftSideImage', data-aos='fade-right')
+              img(src!='../images/' + item.image, class='leftSideImage', class=(item.imageClass?item.imageClass:''), data-aos='fade-right')
             div(class='col-md-7 col-lg-7', data-aos='fade-left')
               h2!= item.title
               div(class='description')!= item.description
@@ -49,62 +49,48 @@ div(class='cover-container w-100 solution1')
 
 div(class='cover-container w-100 solution2')
   div(class='container')
-    div(class='row'): div(class='col')
+    div(class="row"): div(class="col")
       h1= solution2.title
-      hr(class='yellow')
-      div(class='row justify-content-center'): div(class='col-10'): div(class='text-center')
-        if currentLang == 'cn'
-          img(src='../images/4.svg', class='w-100', data-aos='fade-up')
-        else
-          img(src='../images/4_en.svg', class='w-100', data-aos='fade-up')
-      - var solution2Items = solution2.items
-      div(class='row')
-        div(class='col')
-          h2= solution2Items[0].title
-          div= solution2Items[0].description
-          ul
-            each pointItem in solution2Items[0].subItems
-              li= pointItem
-        div(class='col')
-          h2= solution2Items[1].title
-          div= solution2Items[1].description
-          ul
-            each pointItem in solution2Items[1].subItems
-              li= pointItem
-      div(class='row solution2-3rdItem')
-        div(class='col-md-6')
-          img(src='../images/5.svg', class='leftSideImage', data-aos='fade-up')
-        div(class='col-md-6')
-          h2= solution2Items[2].title
-          div= solution2Items[2].description
-          ul
-            each pointItem in solution2Items[2].subItems
-              li= pointItem
+      hr(class="yellow")
+    div(class="row solution2Content")
+      div(class="col-8")
+        each content in solution2.items
+          div(class="contentPanel")
+            h2= content.title
+            p= content.description
+            div(class="subItemsContainer")
+              each item in content.subItems
+                li= item
+      div(class="col-4")
+        img(src="/images/solution2-cn.png", class="w-100")
+        
 
-div(class='cover-container w-100 solution3')
-  div(class='container')
-    div(class='row'): div(class='col')
+div(class="cover-container w-100 solution3")
+  div(class="container")
+    div(class="row"): div(class="col")
       h1= solution3.title
-      hr(class='yellow')
-      
-      each item, index in solution3.items
-        if index % 2 == 0 
-          div(class='row align-items-center')  
-            div(class='col content-block', data-aos='fade-right')  
-              h2= item.title
-              div= item.description
-                ul
-                each pointItem in item.subItems
-                  li= pointItem
-            div(class='col text-center')
-              img(src!='../images/' + item.image, data-aos='fade-left', class='w-100')
-        else
-          div(class='row align-items-center')  
-            div(class='col text-center')
-              img(src!='../images/' + item.image, data-aos='fade-right', class='w-100')
-            div(class='col content-block', data-aos='fade-left')  
-              h2= item.title
-              div= item.description
-                ul
-                each pointItem in item.subItems
-                  li= pointItem
+      hr(class="yellow")
+    div(class="row"): div(class="col")
+      div(class="row  align-items-center")
+        div(class="col-7 solution3ContentPadding")
+          each content, index in solution3.items
+            if index < 2 
+              div(class="content-block")
+                h2= content.title
+                p= content.description
+                div(class="subItemsContainer")
+                  each item in content.subItems
+                    li= item
+        div(class="col-5")
+          img(src="/images/solution3-6.svg", class="w-100")
+      div(class="row")
+        div(class="col-5")
+          img(src="/images/solution3-7.svg" , class="w-100")
+        div(class="col-7")
+          - var content = solution3.items[2]
+          div(class="content-block")
+                h2= content.title
+                p= content.description
+                div(class="subItemsContainer")
+                  each item in content.subItems
+                    li= item

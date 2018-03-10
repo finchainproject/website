@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1137px" height="1137px" viewBox="0 0 1137 1137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="567.5" cy="567.5" r="567.5"></circle>
+        <path d="M567.5,1135 C880.921596,1135 1135,880.921596 1135,567.5 C1135,254.078404 880.921596,0 567.5,0 C254.078404,0 0,254.078404 0,567.5 C0,880.921596 254.078404,1135 567.5,1135 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1135" height="1135" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M567.5,1135 C880.921596,1135 1135,880.921596 1135,567.5 C1135,254.078404 880.921596,0 567.5,0 C254.078404,0 0,254.078404 0,567.5 C0,880.921596 254.078404,1135 567.5,1135 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1135" height="1135" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M567.5,1135 C880.921596,1135 1135,880.921596 1135,567.5 C1135,254.078404 880.921596,0 567.5,0 C254.078404,0 0,254.078404 0,567.5 C0,880.921596 254.078404,1135 567.5,1135 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="1135" height="1135" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20180310" transform="translate(-232.000000, -9296.000000)">
+            <g id="Group-19" transform="translate(233.000000, 9297.000000)">
+                <g id="3-Slices-Pie-Chart">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval-4" stroke="#979797" xlink:href="#path-1"></use>
+                    <g id="#161032" stroke-dasharray="1189.047619047619,5675" mask="url(#mask-2)" stroke="#1B4C72" stroke-width="1135">
+                        <use mask="url(#mask-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="#FAFF81" stroke-dasharray="1189.047619047619,5675" mask="url(#mask-2)" transform="translate(567.500000, 567.500000) rotate(-120.000000) translate(-567.500000, -567.500000) " stroke="#3FA9D2" stroke-width="1135">
+                        <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="#FFC53A" stroke-dasharray="1189.047619047619,5675" mask="url(#mask-2)" transform="translate(567.500000, 567.500000) rotate(-240.000000) translate(-567.500000, -567.500000) " stroke="#6EC4C7" stroke-width="1135">
+                        <use mask="url(#mask-8)" xlink:href="#path-7"></use>
+                    </g>
+                    <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(319.568529, 424.500000) rotate(30.000000) translate(-319.568529, -424.500000) " x="21" y="410" width="597.137058" height="29"></rect>
+                    <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(816.568529, 424.500000) rotate(150.000000) translate(-816.568529, -424.500000) " x="518" y="410" width="597.137058" height="29"></rect>
+                    <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(565.500000, 850.568529) rotate(90.000000) translate(-565.500000, -850.568529) " x="266.931471" y="836.068529" width="597.137058" height="29"></rect>
+                </g>
+                <text id="我们内容社区上的庞大用户是各种金融资产和" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="25" fill="#FFFFFF">
+                    <tspan x="151" y="743">我们内容社区上的庞大用户是各种金融资产和金融应用的</tspan>
+                    <tspan x="151" y="768">潜在客户，例如他们很多人会对高端和专业的投资资讯工</tspan>
+                    <tspan x="151" y="793">具有需要.Finchain金融公有链技术的去中心化账本功能可</tspan>
+                    <tspan x="151" y="818">以被用来创建，确认，转移各种不同类型的资产及合约。</tspan>
+                    <tspan x="151" y="843">用户和金融机构可以在Finchain公共链上打造智能合约并</tspan>
+                    <tspan x="151" y="868">根据自己的需要发行自定义的代币和金融资产，还能快速</tspan>
+                    <tspan x="151" y="893">搭建其他金融应用。Finchain金融公有链将可以间接大大</tspan>
+                    <tspan x="151" y="918">增加Finchain的需求，并帮助构成良好的回圈。</tspan>
+                </text>
+                <text id="Finchain-是去中心化应用程式商业" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="25" fill="#FFFFFF">
+                    <tspan x="609" y="743">Finchain 是去中心化应用程式商业化的技术解决方案，可</tspan>
+                    <tspan x="609" y="768">提供各种必要的功能和超高的处理能力，让开发者可以将</tspan>
+                    <tspan x="609" y="793">注意力集中在业务层，开发团队都可以借此以较快的速度</tspan>
+                    <tspan x="609" y="818">开发出所需要的去中心化金融应用。Finchain区块链架构</tspan>
+                    <tspan x="609" y="843">通过DPOS的方式解决了延迟和数据吞吐量的难题，应用</tspan>
+                    <tspan x="609" y="868">都可以让普通人无需任何手续费（gas）就方便地使用，甚</tspan>
+                    <tspan x="609" y="893">至很难感受到在使用的是区块链应用，用户体验将会有革</tspan>
+                    <tspan x="609" y="918">命性的进步。因此，更多的团队和他们的用户将很可能因</tspan>
+                    <tspan x="609" y="943">此被吸引加入Finchain平台，加快网路效应的发生，并最</tspan>
+                    <tspan x="609" y="968">终帮助Finchain形成去中心化的金融生态圈。</tspan>
+                </text>
+                <text id="基本上Finchain产品思路很明确，一" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" line-spacing="25" fill="#FFFFFF">
+                    <tspan x="348" y="208">基本上Finchain产品思路很明确，一开始因应市场的缺口和用户的痛点</tspan>
+                    <tspan x="348" y="233">去制定奖励机制以快速形成一个专业的投资者内容和金融信息分享社</tspan>
+                    <tspan x="348" y="258">群。区块链奖励机制是希望令每个贡献者都能获得回报并继而激励他们</tspan>
+                    <tspan x="348" y="283">一起建立一个去中心化的内容平台和金融生态圈。奖励机制可激励社群</tspan>
+                    <tspan x="348" y="308">去分享，例如内容创作者将会更有动机发布质量好的贴文。其他用户亦</tspan>
+                    <tspan x="348" y="333">会自发去搜寻和发掘有价值的信息并为其点好评，群策群力地确认好贴</tspan>
+                    <tspan x="348" y="358">文，去中心化地一起找出内容价值。</tspan>
+                </text>
+                <text id="区块链奖励机制-(Proof-of-In" font-family="PingFangSC-Medium, PingFang SC" font-size="20" font-weight="400" fill="#FFFFFF">
+                    <tspan x="388" y="117">区块链奖励机制 (Proof of Intelligence)</tspan>
+                </text>
+                <rect id="Rectangle-7" fill="#FFFFFF" x="365" y="134" width="400" height="1"></rect>
+                <text id="牽引和扩大用户群" font-family="PingFangSC-Thin, PingFang SC" font-size="20" font-weight="300" fill="#FFFFFF">
+                    <tspan x="485" y="166">牽引和扩大用户群</tspan>
+                </text>
+                <g id="Group-18" transform="translate(61.000000, 601.000000)" fill="#FFFFFF">
+                    <text id="Finchain-金融公有链" font-family="PingFangSC-Medium, PingFang SC" font-size="20" font-weight="400">
+                        <tspan x="46" y="21">Finchain 金融公有链</tspan>
+                    </text>
+                    <rect id="Rectangle-7-Copy" x="0" y="38" width="233" height="1"></rect>
+                    <text id="扩展产品形态" font-family="PingFangSC-Thin, PingFang SC" font-size="20" font-weight="300">
+                        <tspan x="113" y="60">扩展产品形态</tspan>
+                    </text>
+                </g>
+                <g id="Group-13" transform="translate(760.000000, 587.000000)" fill="#FFFFFF">
+                    <text id="Finchain-新的区块链架构" font-family="PingFangSC-Medium, PingFang SC" font-size="20" font-weight="400">
+                        <tspan x="0" y="21">Finchain 新的区块链架构</tspan>
+                    </text>
+                    <rect id="Rectangle-7-Copy-2" x="0" y="38" width="310" height="1"></rect>
+                    <text id="網路效應-形成去中心化的金融生态圈" font-family="PingFangSC-Thin, PingFang SC" font-size="20" font-weight="300">
+                        <tspan x="0" y="60">網路效應</tspan>
+                        <tspan x="0" y="88">形成去中心化的金融生态圈</tspan>
+                    </text>
+                </g>
+                <g id="Group-12" transform="translate(408.000000, 408.000000)" fill="#FFFFFF">
+                    <circle id="Oval-Copy-15" cx="160" cy="160" r="136.029963"></circle>
+                    <circle id="Oval-Copy-16" opacity="0.25" cx="160" cy="160" r="160"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
