@@ -12,9 +12,6 @@ div(class='cover-container w-100 roadMap roadMapItemBackground')
                 div(class='col-12')
                   div(class='container itemContent')
                     h3= item.caption
-                    div(class='descriptionItem')
-                      each pointItem in item.descriptionItem
-                        li= pointItem
                 div(class='col-12')
                   div(class='txtDateRange text-center')
                     img(src=(index % 2 == 0)?'../images/line_Pos.svg':'../images/line_Neg.svg', class='w-100')

@@ -4,15 +4,6 @@ div(class='cover-container w-100 ecosphere')
         h1= ecosphere.title
         hr(class='yellow')
         div(class='row')
-            div(class='col-12 text-center')
-                div(class='card topSide')= ecosphere.items[0].content
-                    div(class='arrow topSide')
-        div(class='row')
-            div(class='col-4')
-                div(class='card leftSide')= ecosphere.items[2].content
-                    div(class='arrow rightSide')
-            div(class='col-4')
-                img(src='../images/12_' + currentLang + '.png', class='w-100')
-            div(class='col-4')
-                div(class='card rightSide')= ecosphere.items[1].content
-                    div(class='arrow leftSide')
+            div(class="col")
+                div(class="container")
+                    img(src='../images/ecosphere-12-' + currentLang + '.svg', class='w-100')

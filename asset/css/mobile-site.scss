@@ -52,7 +52,7 @@ hr {
     }
 }
 h1 {
-    font-size: 40px; 
+    font-size: 30px; 
     color: $primary-txt-color !important; 
     font-family: $font-family-header;
     text-align: center;
@@ -61,8 +61,8 @@ h1 {
         color: #FFFFFF !important;
     }
 }
-h2 { font-size: 30px; color: $primary-txt-color; font-family: $font-family-header; }
-h3 { font-size: 20px; color: $primary-txt-color; font-family: $font-family-header; }
+h2 { font-size: 20px; color: $primary-txt-color; font-family: $font-family-header; }
+h3 { font-size: 15px; color: $primary-txt-color; font-family: $font-family-header; }
 
 ul {
     margin: 5px 0 0 0;
@@ -136,7 +136,11 @@ ul {
 .core-module {
     background-color: #FFFFFF;
     padding: 40px 0 40px 0;
-    .content { margin-top: 15px; line-height: 25px; }
+    .content { margin-top: 15px; line-height: 25px; color: #797979;	font-family: "PingFang SC";	font-size: 14px;	line-height: 30px;}
+    h2 {
+        text-align: center;
+        color: #0769D5;	font-family: "PingFang SC";	font-size: 20px;	font-weight: 500;
+    }
 }
 .titleLabel {
     width: 80px;
@@ -219,6 +223,23 @@ ul {
             right: 10em;
         }
     }
+    .contentPanel {
+        background-color: #F3F8FE;	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+        padding: 20px;
+        margin-bottom: 23px;
+        h2 {
+            color: #0769D5;	font-family: "PingFang SC";	font-size: 20px;	font-weight: 600;
+        }
+        p {
+            color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px
+        }
+        div.subItemsContainer {
+            margin-top: 21px;
+            li {
+                color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px; margin: 7px 0;
+            }
+        }
+    }
 }
 
 .solution3 {
@@ -227,16 +248,24 @@ ul {
     background-repeat: repeat;
     background-size: cover;
     .contentItem {
-        margin-bottom: 50px;
+        margin: 20px 0;
         h2 {
-            margin-top: 20px;
+            color: #0769D5;	font-family: "PingFang SC";	font-size: 20px; font-weight: 600;
+        }
+        p {
+            color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px;
+        }
+        div.subItemsContainer {
+            margin-top: 21px;
+            ul {
+                margin-left: -1em;
+                li {
+                    color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px; line-height: 25px; margin: 10px 0;
+                }
+            }
         }
     }
-    .content-block{
-        h2:nth-child(4) {
-            margin: 80px 0 0 0;
-        }
-    }
+    
 }
 
 /* core-value */ 
@@ -244,7 +273,10 @@ ul {
     background-color: rgba(248, 248, 248, 1);
     padding: 85px 0 85px 0;
     img { margin: 30px auto 40px auto; }
-    div.itemContent { line-height: 25px; margin-top: 15px; }
+    div.itemContent { line-height: 25px; margin-top: 15px; color: #373A3C;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px}
+    h2 {
+        color: #0769D5;	font-family: "PingFang SC";	font-size: 20px;	font-weight: 600
+    }
 }
 
 /* Block Chain */
@@ -275,7 +307,7 @@ ul {
         background-color: rgba(97, 166, 243, 1);
         background-repeat: no-repeat;
         background-image: url(../images/background/BG5.svg);
-        background-size: cover;
+        background-size: 100%f;
         background-position: center bottom;
     }
     .roadMapScroll {
@@ -285,6 +317,7 @@ ul {
         background-repeat: no-repeat;
         background-image: url(../images/14.svg);
         background-position: center bottom;
+        
         padding: 85px 0 0 0;
         .roadMapItem {
             display: inline-block !important;
@@ -301,13 +334,11 @@ ul {
                 background-position: top center;
                 background-size: 100%;
                 min-height: 371px;
-                .descriptionItem {
-                    margin-top: 15px; 
-                    li {
-                        list-style: none;
-                        line-height: 25px;
-                        font-size: 14px;
-                    }
+                display: flex;
+                align-items: center;
+                h3 {
+                    color: #0769D5;	font-family: "PingFang SC";	font-size: 24px; font-weight: 600;
+                    text-align: center;
                 }
             }
         }
