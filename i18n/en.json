@@ -57,7 +57,7 @@
                 "items" : [
                     {
                         "title" : "Professional UGC Platform with leading blockchain based rewarding scheme",
-                        "image" : "1.svg",
+                        "image" : "solution1-1-en.svg",
                         "description" : "Content providers and community members should be rewarded by their contributions. We\"re willing to share success with our users and use incentives to encourage them to generate more premium content and share.",
                         "subItems" : [
                             "Everyone effort and contribution will be evaluated and paid automatically with decentralizing approach.",
@@ -66,7 +66,7 @@
                     },
                     {
                         "title" : "Decentralized & crowdsourced curation to determine the content value",
-                        "image" : "2.svg",
+                        "image" : "solution1-2-en.svg",
                         "description" : "The quality of content and its intrinsic value will be evaluated by crowds but not a centralized authority.",
                         "subItems" : [
                             "Content value will be evaluated by voting (upvote & downvote)",
@@ -76,7 +76,7 @@
                     },
                     {
                         "title" : "Big data acquisition and AI powered content suggestions",
-                        "image" : "3.png",
+                        "image" : "solution1-3-en.svg",
                         "imageClass" : "w-100",
                         "description" : "Users can define the type of interest and receive 1-to-1 personalized information and selected market news and insights regularly",
                         "subItems" : [

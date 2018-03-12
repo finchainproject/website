@@ -8,8 +8,7 @@ div(class='cover-container w-100 solution1')
       h1(class='white')= solution1.title
       hr(class='white')
       each item, index in solution1.items
-        if index % 2 == 0 
-          if index == 0 
+          if index <= 2 
             div(class='row white align-items-center section')
               div(class='col-12', data-aos='fade-up')
                 img(src!='../images/' + item.image, class='w-100')
@@ -29,16 +28,7 @@ div(class='cover-container w-100 solution1')
                 ul
                   each pointItem in item.subItems
                     li= pointItem
-        else
-          div(class='row  align-items-center section')
-            div(class='col-12', data-aos='fade-up')
-              img(src!='../images/' + item.image, class='w-100')
-            div(class='col-12', data-aos='fade-up')
-              h2!= item.title
-              div(class='description')!= item.description
-              ul
-                each point in item.subItems
-                  li= point
+        
     div(class='row sectionRemark')
       div(class='col-12 text-center', data-aos='fade-up')
         h2!= solution1.descriptionBlock.caption
@@ -52,7 +42,8 @@ div(class='cover-container w-100 solution2')
     div(class='row'): div(class='col')
       h1= solution2.title
       hr(class='yellow')
-      
+    div(class="row"): div(class="col")
+      div(class="text-center"): img(src!="/images/solution2-" + currentLang + ".png", alt="", class="w-50")
       - var solution2Items = solution2.items
         div(class='row')
           div(class="contentPanel", data-aos='fade-up')
@@ -69,15 +60,22 @@ div(class='cover-container w-100 solution2')
               ul
                 each pointItem in solution2Items[1].subItems
                   li= pointItem
+    
 
 div(class="cover-container w-100 solution3")
   div(class="container")
     div(class='row'): div(class='col')
       h1= solution3.title
       hr(class='yellow')
-      each content in solution3.items
+      each content, index in solution3.items
+        if index == 0
+          img(src!="/images/solution3-6-" + currentLang + ".svg", class="w-100")
+        if index == 2
+          img(src!="/images/solution3-7-" + currentLang + ".svg", class="w-100")
         div(class="contentItem")
           h2= content.title
           p= content.description
-          each pointItem in content.subItems
-            li= pointItem
+          div(class="subItemsContainer")
+            ul
+              each pointItem in content.subItems
+                li= pointItem

@@ -173,7 +173,7 @@ ul {
     background-image: url(../images/background/BG2.svg);
     background-position: top left; 
     background-repeat: no-repeat;
-    background-size: contain; 
+    background-size: cover; 
     padding: 85px 0 64px 0;
     .section { 
         margin-bottom: 140px; 
@@ -340,9 +340,9 @@ ul {
                 background-position: top center;
                 min-height: 371px;
                 display: flex; 
+                align-items:center;
                 h3 {
                     color: #0769D5;	font-family: "PingFang SC";	font-size: 24px; font-weight: 600;
-                    padding-top: 5em;
                     text-align: center;
                 }
             }
