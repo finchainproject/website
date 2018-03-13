@@ -7,6 +7,7 @@
         "cn" : "简体中文"
     },
     "PDFFilePath" : "FINCHAIN_White-Paper_EN_220218.pdf",
+    "DeckFilePath": "FINCHAIN-SUMMARY_EN_20180312.pdf",
     "topBanner" : {
         "caption" : "Blockchain-based Bloomberg",
         "subCaption" : "Decentralized Financial Ecosystem",
@@ -16,7 +17,8 @@
         "subscribeBox" : {
             "catopion" : "预售结束<br />共筹集200万美元",
             "btnSubscribeBox" : "订阅电子报",
-            "btnWhitePaper" : "Download White Paper"
+            "btnWhitePaper" : "White Paper",
+            "btnDeck" : "Deck"
         }
     },
     "coreModule" : {
@@ -128,27 +130,36 @@
                 ]
             },
             {
-                "title" : "Marketplace for financial applications & products",
-                "items" : [
-                    {
-                        "title" : "Marketplace for Financial Applications",
-                        "image" : "6.svg",
-                        "description" : "Developers can distribute their investment applications to crypto market investors around the world through Finchain Financial App Store.",
-                        "subItems" : [
-                            "Trading bot with tailor made investment strategy",
-                            "AI powered investment insights & alert",
-                            "Third party big data application & machine learning algorithm",
-                            "More AI & big data applications coming soon"
+                "title": "高度规模化的区块链架构",
+                "items": [{
+                        "title": "去中心化应用程式商业化的技术解决方案",
+                        "image": "6.svg",
+                        "description": "Finchain区块链架构提供各种必要的功能和超高的处理能力，可以在1秒之内进行10万次打包记账，以支持去中心化应用在横向和纵向方向上的扩容，让开发者可以将注意力集中在业务层。",
+                        "subItems": [
+                            "提供所有基础建设包括电脑资源和数据库给应用开发者，他们只需要专心开发自己应用的商业逻辑，就好像开发者开发手机程式，不用自己建构CPU，缓存和内存空间",
+                            "任何团队都可以较快的速度开发出金融DApp ，一切金融资产和应用皆可去中心化",
+                            "区块链操作系统开发的应用都可以让普通人无需任何手续费（gas）就可以方便地使用，甚至很难感受到在使用的是区块链应用"
                         ]
                     },
                     {
-                        "title" : "Marketplace for Financial Products & Derivatives",
-                        "image" : "7_en.svg",
-                        "description" : "Approved financial institutions will offer financial products, derivatives, coin traded funds (CTF) for our platform users.",
-                        "subItems" : [
-                            "Decentralized rating system such as risk rating & return on investment",
-                            "Blockchain & smart contract-based trading",
-                            "Lower commission fee & decentralized trading possibilities"
+                        "title": "商业应用商店市集",
+                        "image": "7.svg",
+                        "description": "Finchain协同第三方去开发各种各样高端和专业的投资工具，例如去中心化的虚拟交易所，人工智能和大数据分析等等商业应用，用户可以在应用市集中购买需要的服务，而不用自己跨平台收集。",
+                        "subItems": [
+                            "方便和省时，用户在一个平台就可以找到适合自己目的的去中心化应用",
+                            "开发者将注意力集中在业务层和商业逻辑，用户体验会有革命性的进步",
+                            "覆盖全球范围，额外的客户获得渠道，高质量的潛在客戶和转换漏斗"
+                        ]
+                    },
+                    {
+                        "title": "引入更多的人工智能和大数据分析应用 - 降低风险，增加回报",
+                        "image": "7.svg",
+                        "description": "建立世界上最大、最多种类的数据流和大数据分析平台，无论你想从那一方面对加密货币和区块链资产作出分析、找出模式，皆可从我们的平台找到相关的原始数据和应用",
+                        "subItems": [
+                            "设身订制投资策略的交易机械人，洞察金融情报的人工智能提示工具",
+                            "大数据应用和机械学习模型如中英文情感分析、文本意见挖掘、多源数据信息推送",
+                            "量化市场情绪并提供相关资讯和洞察给用户，如数字货币共识定价指数和各种指标",
+                            "未来会陆续引入各种的机械学习模型和更多不同用途且可量身定制的人工智能应用"
                         ]
                     }
                 ]
