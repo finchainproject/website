@@ -315,10 +315,16 @@ ul {
 
 /* roadMap */
 .roadMap {
+    h1 {
+        color: rgba(71, 96, 123, 1)
+    }
+    .items {
+        padding: 50px 0 150px 0;
+    }
     &.roadMapItemBackground {
-        background-color: rgba(97, 166, 243, 1);
+        background-color: rgba(245, 249, 254, 1);
         background-repeat: no-repeat;
-        background-image: url(../images/background/BG5.svg);
+        background-image: url(../images/background/Roadmap_Bg.svg);
         background-size: cover;
         background-position: center bottom;
     }
@@ -329,21 +335,19 @@ ul {
         padding: 85px 0 0 0;
         .roadMapItem {
             .txtDateRange {
-                padding: 34px 0;
-                font-size: 20px;
-                color: #FFFFFF;
-                line-height: 25px;
+                border-bottom: 1px solid #FFFFFF;
+                padding-bottom: 5px; 
+                margin-bottom: 5px;
             }
             .itemContent {
-                background-image:url(../images/13.svg);
+                height: 150px;
+                background-size: contain;
                 background-repeat: no-repeat;
                 background-position: top center;
-                min-height: 371px;
-                display: flex; 
-                align-items:center;
-                h3 {
-                    color: #0769D5;	font-family: $font-family-regular;	font-size: 24px; font-weight: 600;
-                    text-align: center;
+                color: #FFFFFF;
+                text-align: center;
+                .body {
+                    padding: 10px 30px;
                 }
             }
         }

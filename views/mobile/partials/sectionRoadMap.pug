@@ -3,16 +3,12 @@ div(class='cover-container w-100 roadMap roadMapItemBackground')
   div(class='roadMapContent')
     div(class='container'): div(class='row')
       div(class='col')
-        h1(class='white')= roadMap.title
-        hr(class='white')
-        div(class='row')
+        h1= roadMap.title
+        hr(class='yellow')
+        div(class='no-gutters', style="display: flex; flex-wrap: no-wrap; overflow-y: auto")
           each item, index in roadMap.items
-            div(class='col-12 roadMapItem', data-aos='fade')
-              div(class='row')
-                div(class='col-12')
-                  div(class='container itemContent')
-                    h3= item.caption
-                div(class='col-12')
-                  div(class='txtDateRange text-center')
-                    img(src=(index % 2 == 0)?'../images/line_Pos.svg':'../images/line_Neg.svg', class='w-100')
-                    div= item.dateString
+            div(class='roadMapItem', style="flex: 0 0 80%", data-aos='fade', data-aos-delay!=index*1.5*100)
+              div(class='container itemContent', style!='background-image:url(images/Roadmaparrow' + index + '.svg)')
+                div(class="body")
+                  div(class="txtDateRange")= item.dateString
+                  div= item.caption
