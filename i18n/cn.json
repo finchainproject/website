@@ -7,6 +7,7 @@
         "cn": "简体中文"
     },
     "PDFFilePath": "FINCHAIN_White-Paper_SC_20180308.pdf",
+    "DeckFilePath": "FINCHAIN-SUMMARY_SC_20180312.pdf",
     "topBanner": {
         "caption": "区块链驱动的彭博社",
         "subCaption": "去中心化的金融生态",
@@ -16,7 +17,8 @@
         "subscribeBox": {
             "catopion": "预售结束<br />共筹集200万美元",
             "btnSubscribeBox": "订阅电子报",
-            "btnWhitePaper": "下载白皮书"
+            "btnWhitePaper": "白皮书",
+            "btnDeck" : "简报"
         }
     },
     "coreModule": {

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="600px" viewBox="0 0 1600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="265.265644%" y1="218.109375%" x2="23.328125%" y2="18.0019531%" id="linearGradient-1">
+            <stop stop-color="#00F6F3" stop-opacity="0.642295063" offset="0%"></stop>
+            <stop stop-color="#0769D5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="20180310" transform="translate(0.000000, -10532.000000)">
+            <g id="Group-28" transform="translate(-30.000000, 10532.000000)">
+                <rect id="Rectangle-12-Copy-6" fill="#F3F8FE" x="0" y="0" width="1660" height="600"></rect>
+                <g id="BG-Copy-3" opacity="0.5" transform="translate(30.000000, 500.000000)" fill="url(#linearGradient-1)">
+                    <polygon id="Rectangle-7" opacity="0.05" points="151.801929 0 599 0 449.383772 100 0 100"></polygon>
+                    <polygon id="Rectangle-7-Copy" opacity="0.05" transform="translate(1323.500000, 50.000000) scale(1, -1) translate(-1323.500000, -50.000000) " points="1175.80193 0 1623 0 1473.38377 100 1024 100"></polygon>
+                    <polygon id="Rectangle-7-Copy-2" opacity="0.05" points="742.801929 0 1190 0 1040.38377 100 591 100"></polygon>
+                    <polygon id="Rectangle-7-Copy-4" opacity="0.05" points="1136.98006 0 1623 0 1460.39539 100 972 100"></polygon>
+                    <polygon id="Rectangle-7" opacity="0.05" transform="translate(329.000000, 50.000000) scale(1, -1) translate(-329.000000, -50.000000) " points="358.547893 0 487 100 171 100"></polygon>
+                    <polygon id="Rectangle-7-Copy-3" opacity="0.05" points="748.525779 1 874 100 390 100 537.366754 1.07955312"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -140,9 +140,9 @@ ul {
 .core-module {
     padding: 85px 0 64px 0;
     background-color: #FFFFFF;
-    .content { margin-top: 15px; line-height: 25px; color: #797979;	font-family: "PingFang SC";	font-size: 14px;	line-height: 30px;	text-align: center;}
+    .content { margin-top: 15px; line-height: 25px; color: #797979;	font-family: $font-family-regular;	font-size: 14px;	line-height: 30px;	text-align: center;}
     h2 {
-        margin-top: 60px; color: #0769D5;	font-family: "PingFang SC";	font-size: 24px;	font-weight: 600; text-align: center;
+        margin-top: 60px; color: #0769D5;	font-family: $font-family-regular;	font-size: 24px;	font-weight: 600; text-align: center;
     }
 }
 .titleLabel {
@@ -185,7 +185,7 @@ ul {
         }
         .description {
             margin: 15px 0 5px 0;
-            font-family: "PingFang SC";	font-size: 14px; line-height: 25px;
+            font-family: $font-family-regular;	font-size: 14px; line-height: 25px;
         }
     }
     .leftSideImage {
@@ -239,15 +239,15 @@ ul {
         padding: 40px;
         margin-bottom: 23px;
         h2 {
-            color: #0769D5;	font-family: "PingFang SC";	font-size: 30px;	font-weight: 600;
+            color: #0769D5;	font-family: $font-family-regular;	font-size: 30px;	font-weight: 600;
         }
         p {
-            color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px
+            color: #4A4A4A;	font-family: $font-family-regular;	font-size: 14px;	line-height: 25px
         }
         div.subItemsContainer {
             margin-top: 21px;
             li {
-                color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px; margin: 7px 0;
+                color: #4A4A4A;	font-family: $font-family-regular;	font-size: 14px;	line-height: 25px; margin: 7px 0;
             }
         }
     }
@@ -264,15 +264,15 @@ ul {
     .content-block{
         margin-bottom: 60px;
         h2 {
-            color: #0769D5;	font-family: "PingFang SC";	font-size: 30px;	font-weight: 600;
+            color: #0769D5;	font-family: $font-family-regular;	font-size: 30px;	font-weight: 600;
         }
         p {
-            color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px
+            color: #4A4A4A;	font-family: $font-family-regular;	font-size: 14px;	line-height: 25px
         }
         div.subItemsContainer {
             margin-top: 21px;
             li {
-                color: #4A4A4A;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px; margin: 7px 0;
+                color: #4A4A4A;	font-family: $font-family-regular;	font-size: 14px;	line-height: 25px; margin: 7px 0;
             }
         }
     }
@@ -281,9 +281,9 @@ ul {
 /* core-value */ 
 .core-value {
     h2 {
-        color: #0769D5;	font-family: "PingFang SC";	font-size: 30px;	font-weight: 600;	line-height: 25px;
+        color: #0769D5;	font-family: $font-family-regular;	font-size: 30px;	font-weight: 600;	line-height: 25px;
     }
-    color: #373A3C;	font-family: "PingFang SC";	font-size: 14px;	line-height: 25px;
+    color: #373A3C;	font-family: $font-family-regular;	font-size: 14px;	line-height: 25px;
     padding: 85px 0 85px 0;
     img { margin: 90px auto 40px auto; }
     div.itemContent { line-height: 25px; margin-top: 15px; }
@@ -315,10 +315,16 @@ ul {
 
 /* roadMap */
 .roadMap {
+    h1 {
+        color: rgba(71, 96, 123, 1)
+    }
+    .items {
+        padding: 50px 0 150px 0;
+    }
     &.roadMapItemBackground {
-        background-color: rgba(97, 166, 243, 1);
+        background-color: rgba(245, 249, 254, 1);
         background-repeat: no-repeat;
-        background-image: url(../images/background/BG5.svg);
+        background-image: url(../images/background/Roadmap_Bg.svg);
         background-size: cover;
         background-position: center bottom;
     }
@@ -329,21 +335,19 @@ ul {
         padding: 85px 0 0 0;
         .roadMapItem {
             .txtDateRange {
-                padding: 34px 0;
-                font-size: 20px;
-                color: #FFFFFF;
-                line-height: 25px;
+                border-bottom: 1px solid #FFFFFF;
+                padding-bottom: 5px; 
+                margin-bottom: 5px;
             }
             .itemContent {
-                background-image:url(../images/13.svg);
+                height: 150px;
+                background-size: contain;
                 background-repeat: no-repeat;
                 background-position: top center;
-                min-height: 371px;
-                display: flex; 
-                align-items:center;
-                h3 {
-                    color: #0769D5;	font-family: "PingFang SC";	font-size: 24px; font-weight: 600;
-                    text-align: center;
+                color: #FFFFFF;
+                text-align: center;
+                .body {
+                    padding: 10px 30px;
                 }
             }
         }
