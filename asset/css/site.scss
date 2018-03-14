@@ -367,48 +367,23 @@ ul {
     background-position: top center;
     background-size: cover;
     padding: 85px 0 85px 0;
-    .card {
-        margin: 0 auto;
-        width: 300px;
-        padding: 20px;
-        text-align: left;
-        // border: 0px;
-        &.topSide {
-            margin-bottom: 1.5rem;
+    .ecosphereItem {
+        background-color: rgba(243, 249, 254, 1);
+        padding: 30px;
+        margin: 10px 0;
+        font-family: $font-family-regular;
+        .header {
+            color: #0769D5;
+            font-family: $font-family-header;
+            font-size: 20px;
         }
-        &.leftSide {
-            margin: 18em 0 0 auto;
-            position: relative;
-            z-index: 1001;
+        .summary {
+            font-family: $font-family-thin;
+            font-size: 20px;
+            margin: 15px 0;
         }
-        &.rightSide {
-            position: relative;
-            margin: 15em auto 0 1em;
-        }
-    }
-    .arrow {
-        width: 20px; 
-        height: 20px; 
-        transform: rotate(45deg);
-        background-color:#FFFFFF;
-        position: relative;
-        &.topSide {
-            top: 22px;
-            margin: 0 auto -10px auto;
-            border-right: 1px solid rgba(206,206,206,1);
-            border-bottom: 1px solid rgba(206,206,206,1);
-        }
-        &.rightSide {
-            top: -220px;
-            right: -269px;
-            border-right: 1px solid rgba(206,206,206,1);
-            border-top: 1px solid rgba(206,206,206,1);
-        }
-        &.leftSide {
-            left: -31px;
-            top: -180px;
-            border-left: 1px solid rgba(206,206,206,1);
-            border-bottom: 1px solid rgba(206,206,206,1);
+        .content {
+
         }
     }
 }
