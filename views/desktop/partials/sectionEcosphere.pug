@@ -1,9 +1,25 @@
-- var ecosphere = langText.ecosphere
+-var ecosphere = langText.ecosphere
+- var e1 = langText.ecosphere.items[0]
+- var e2 = langText.ecosphere.items[1]
+- var e3 = langText.ecosphere.items[2]
 div(class='cover-container w-100 ecosphere')
     div(class='row'): div(class='col')
         h1= ecosphere.title
         hr(class='yellow')
-        div(class='row')
-            div(class="col")
-                div(class="container")
-                    img(src='../images/ecosphere-12-' + currentLang + '.svg', class='w-100')
+        div(style="width:1000px; margin: 0 auto; display:flex; flex-wrap: wrap;")
+            div(style="flex: 0 0 100%; background-image: url(images/ecosphere-top.png); background-size: cover; background-repeat: no-repeat; height: 453px;")
+                div(style="color:#FFFFFF; width: 350px; margin: 5em auto 0 auto;")
+                    div(class="text-center", style="font-size: 16px; font-weight: bold; padding-bottom: 10px; border-bottom: 1px solid #FFFFFF;")= e1.header
+                    div(class="text-center", style="font-size: 16px; padding-top: 10px; padding-bottom: 10px; ")= e1.summary
+                    div(style="font-size: 13px")= e1.content
+                
+            div(style="flex: 0 0 50%; background-image: url(images/ecosphere-left.png); background-size: 101.4%; background-position: 0 -20; background-repeat: no-repeat; height: 546px;")
+                div(style="color:#FFFFFF; width: 300px; margin: 5em auto 0 auto;")
+                    div(class="text-left", style="font-size: 16px; font-weight: bold; padding-bottom: 10px; border-bottom: 1px solid #FFFFFF;")= e2.header
+                    div(class="text-left", style="font-size: 16px; padding-top: 10px; padding-bottom: 10px; ")= e2.summary
+                    div(style="font-size: 13px")= e2.content
+            div(style="flex: 0 0 50%; background-image: url(images/ecosphere-right.png); background-size: 101%; background-position: -5 -18; background-repeat: no-repeat; ")
+                div(style="color:#FFFFFF; width: 300px; margin: 5em auto 0 auto;")
+                    div(class="text-right", style="font-size: 16px; font-weight: bold; padding-bottom: 10px; border-bottom: 1px solid #FFFFFF;")= e3.header
+                    div(class="text-right", style="font-size: 16px; padding-top: 10px; padding-bottom: 10px; ")= e3.summary
+                    div(style="font-size: 13px")= e3.content
